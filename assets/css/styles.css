@@ -6,13 +6,30 @@ body {
     scroll-behavior: smooth;
 }
 
+/* Navbar */
+
+.navbar-brand {
+    white-space: initial;
+}
+
 nav a {
     color: white;
     text-align: center
-    
 }
 
 .navbar-nav li {
-    margin: 0 25px
+    margin: 0 50px
 }
 
+
+.navbar-toggler{
+    color: white
+}
+
+.form-group {
+    margin: 10px 25px
+}
+
+.btn-submit{
+    color: white;
+}
