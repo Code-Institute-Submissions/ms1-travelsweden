@@ -1,41 +1,104 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# MS1: Travel Sweden.
 
-Welcome USER_NAME,
+Project 1: User Centric Frontend Web Development Project for Code Institute.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+Designed using HTML, CSS and Bootstrap, this project focusses on a fictional Swedish travel company.
 
-## Gitpod Reminders
+# Access
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+View the project live: [here](XXX)
 
-`python3 -m http.server`
+View the Github repo: [here](XXX)
 
-A blue button should appear to click: *Make Public*,
+# UX
 
-Another blue button should appear to click: *Open Browser*.
+## Strategy
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Business Objectives
 
-A blue button should appear to click: *Make Public*,
+1. To increase the number of direct enquiries through the website
+2. To provide up-to-date information on the tours, key information and any offers in one place
+3. To create an overall positive image for our users by using strong branding
 
-Another blue button should appear to click: *Open Browser*.
+### User stories
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+-   #### First Time Visitor Goals
 
-## Updates Since The Instructional Video
+    1. As a First Time Visitor, I want to easily understand the services offered by the company and have a positive experience when exploring the website
+    2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find any tour that may interest me, and find sufficient information on that tour.
+    3. As a First Time Visitor, I want to be able to learn more about the company's goals and values, and easily find the details that I am looking for.
+    4. As a First Time Visitor, I want to enjoy high-quality, interesting images of the locations that I am interested in.
+    5. As a First Time Visitor, I want to be able to submit an enquiry related to the tour that I am interested in.
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+-   #### Frequent User Goals
+    1. As a Frequent User, I want to check to see if any new tours have been added to the website
+    2. As a Frequent User, I want to check to see if any new features have been added
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed along with other common files.
+## Scope
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Current features
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+* Navbar 
+    * Dropdown tour menu and contact form modal, which is easily located and acts as an immediate call to action to boost enquiries.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+* Home Page
+    * Impressive and interesting use of imagery in the hero image and backgrounds of certain sections
+    * 3 cards showing the tours that the company offers, giving easy access and allowing the user to quickly see which tours are available and where they are located
+    * A review carousel aimed to give a positive impression of the company
+    * 3 cards showing the reasons to travel with us, giving short and concise answers.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+* Tour Page
+    * Impressive and interesting use of imagery in the hero image, backgrounds of certain sections and additionally in the carousel
+    * Well presented tour highlights and key facts for the user to easily understand
+    * A second enquire button to act as a call to action, which will already have the tour name selected at the top 
+    * A day-by-day itinerary and map API from Google Maps to see the location of the tour
+    * A weather chart using sliders to see the average rainfall and temperatures at different times of the year
 
---------
+* About Page
+    * Impressive and interesting use of imagery in the hero image and backgrounds of certain sections
+    * Company history presented as timeline for instant understanding
+    * Photos and texts of the team members to make the company appear more personable
+    * Sustainability values, including an iframe of carbon emissions so that users can understand their carbon footprint from any flight taken
 
-Happy coding!
+* Footer
+    * Awards won to further the positive impression
+    * Social media links
+    * Company details such as address, email and phone number
+
+### Long-term goals
+
+Future improvements to the website may include:
+
+* A blog section to improve SEO and include customer stories and experiences
+* Offers on tours to entice customers to make enquiries
+* A payment system such as Stripe to take direct bookings and not just enquiries
+
+## Structure
+
+Separate pages - more info tbc.
+
+## Skeleton
+
+### Wireframes
+
+-   Home Page Desktop Wireframe - [View](assets/wireframes/home-desktop.pdf)
+
+-   Home Page Mobile & Tablet Wireframe - [View](assets/wireframes/home-tablet-and-mobile.pdf)
+
+-   Tour Page Desktop Wireframe - [View](assets/wireframes/tour-desktop.pdf)
+
+-   Tour Page Mobile & Tablet Wireframe - [View](assets/wireframes/tour-tablet-and-mobile.pdf)
+
+-   About Page Desktop Wireframe - [View](assets/wireframes/about-desktop.pdf)
+
+-   About Page Mobile & Tablet Wireframe - [View](assets/wireframes/about-tablet-and-mobile.pdf)
+
+## Surface
+   
+### Design
+-   #### Colour Scheme
+    -   The two main colours used are a shade of dark blue and white.
+-   #### Typography
+    -   The XXXXX font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+-   #### Imagery
+    -   Each page will have a large hero image of spectacular landscapes of the destinations being sold, to act as a selling tool to the user. Images will also be used as backgrounds in certain sections, and there will additionally be a photo gallery for each tour page to further inspire the user to want to travel.
