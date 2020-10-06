@@ -1,8 +1,8 @@
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Raleway', sans-serif;
-    text-align: center;       
-    overflow-x: hidden;     
+    text-align: center;   
+    overflow-x: hidden; 
     scroll-behavior: smooth;
 }
 
@@ -32,4 +32,68 @@ nav a {
 
 .btn-submit{
     color: white;
+}
+
+.btn-light{
+    color: #030a4a;
+    font-weight: bold
+}
+/* Hero Container */
+
+.hero-container {    
+    text-align: center;
+    height: 90vh;
+    background-image: url("../images/deck-lake-forest.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    color: #fafafa;
+}
+
+.hero-container h1{    
+    padding-top: 35vh;
+    font-weight: 400;
+    font-size: 400%;
+}
+
+@media screen and (max-height:700px){
+    .hero-container h1{    
+    padding-top: 20vh;
+    }
+}
+
+/* Values Container */
+.value-text h1{
+    color: #030a4a; 
+}
+
+.value-text h5{
+    border: 1px solid white;
+    background-color: #030a4a;      
+    border-radius: 5px;
+    color: white;    
+    padding: 20px 10px;
+    max-width: 30%;
+    text-align: center;
+    justify-content: center;
+    margin-left: 35%;  
+}
+
+.values-container img{
+    height: 50vh;
+    padding: 45px 0
+}
+
+
+
+
+/* Footer */
+footer, footer i{
+    background-color: #030a4a;
+    color: white
+}
+
+.footer-logo img{
+    height: 100px;
+    vertical-align: center
 }
