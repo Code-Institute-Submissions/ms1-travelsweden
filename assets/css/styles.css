@@ -7,6 +7,9 @@ body {
 }
 
 /* Navbar */
+.navbar {
+    margin: 0
+}
 
 .navbar-brand {
     white-space: initial;
@@ -56,13 +59,18 @@ nav a {
     font-size: 400%;
 }
 
-@media screen and (max-height:700px){
+@media screen and (max-height:625){
     .hero-container h1{    
-    padding-top: 20vh;
+    padding-top: 100px
     }
 }
 
 /* Values Container */
+
+.values-container{
+    background-color: #F5F5DC
+}
+
 .value-text h1{
     color: #030a4a; 
 }
@@ -81,7 +89,8 @@ nav a {
 
 .values-container img{
     height: 50vh;
-    padding: 45px 0
+    padding: 45px 0;
+    
 }
 
 
