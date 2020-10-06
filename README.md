@@ -6,9 +6,9 @@ Designed using HTML, CSS and Bootstrap, this project focusses on a fictional Swe
 
 # Access
 
-View the project live: [here](XXX)
+View the project live: [here](https://adamdelancey.github.io/ms1-travelsweden/)
 
-View the Github repo: [here](XXX)
+View the Github repo: [here](https://github.com/adamdelancey/ms1-travelsweden)
 
 # UX
 
