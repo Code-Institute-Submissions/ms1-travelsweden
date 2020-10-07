@@ -11,10 +11,6 @@ body {
     margin: 0
 }
 
-.navbar-brand {
-    white-space: initial;
-}
-
 nav a {
     color: white;
     text-align: center
@@ -27,6 +23,18 @@ nav a {
 
 .navbar-toggler{
     color: white
+}
+
+@media screen and (max-width:450px){
+    .enquiry-button{  
+        display: none      
+    }
+}
+
+@media screen and (max-width:450px){
+    .navbar-nav li{  
+        margin-left: 10px      
+    }
 }
 
 .form-group {
@@ -59,7 +67,7 @@ nav a {
     font-size: 400%;
 }
 
-@media screen and (max-height:625){
+@media screen and (max-width:400px){
     .hero-container h1{    
     padding-top: 100px
     }
@@ -87,10 +95,29 @@ nav a {
     margin-left: 35%;  
 }
 
+@media screen and (max-width:1200px){
+    .value-text h5{  
+        margin-top: 20px;
+        margin-bottom: 20px      
+    }
+}
+
+@media screen and (max-width:450px){
+    .value-text h4{         
+        margin-bottom: 50px      
+    }
+}
 .values-container img{
     height: 50vh;
     padding: 45px 0;
     
+}
+
+@media screen and (max-width:450px){
+    .values-container img, .values-container p{  
+        display: none  
+    
+    }
 }
 
 
