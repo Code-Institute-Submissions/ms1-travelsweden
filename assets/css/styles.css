@@ -120,8 +120,24 @@ nav a {
     }
 }
 
+/* Values Container */
 
+.tour-list-section {
+    background-image: url("../images/northern-lights.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 100%;      
+    overflow: hidden;
+}
 
+.tour-list-section h1{
+    color: white
+}
+
+.card {
+    
+}
 
 /* Footer */
 footer, footer i{
