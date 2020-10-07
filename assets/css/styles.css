@@ -80,7 +80,7 @@ nav a {
 }
 
 .value-text h1{
-    color: #030a4a; 
+    color: #030a4a;     
 }
 
 .value-text h5{
@@ -93,6 +93,7 @@ nav a {
     text-align: center;
     justify-content: center;
     margin-left: 35%;  
+    margin-top: 5px
 }
 
 @media screen and (max-width:1200px){
@@ -165,6 +166,28 @@ nav a {
     }
 }
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;  
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 30px;
+  color: #030a4a;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 30px;
+  color: #030a4a;
+}
+
 /* Why Section */
 
 .why-section {
@@ -179,6 +202,10 @@ nav a {
 .why-section h1{
     color: white;
     margin-top: 25px
+}
+
+.list-heading {
+    font-size: larger
 }
 
 
@@ -197,5 +224,10 @@ footer, footer i{
     height: 100px;
     vertical-align: center;
     margin: 10px
+}
+
+.list-inline-item i{
+    padding-top: 20px;
+    
 }
 
