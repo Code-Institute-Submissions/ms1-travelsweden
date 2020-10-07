@@ -147,13 +147,55 @@ nav a {
 .card img:hover{
     opacity: 0.8;
 }
+
+/* Review Section */
+
+.review-section{
+    background-color: #F5F5DC
+}
+
+.carousel-item{
+    padding: 25px 150px 
+}
+
+@media screen and (max-width:800px){
+    .carousel-item{
+    padding: 25px 50px  
+    
+    }
+}
+
+/* Why Section */
+
+.why-section {
+    background-image: url("../images/frozen-lake.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 100%;      
+    overflow: hidden;    
+}
+
+.why-section h1{
+    color: white;
+    margin-top: 25px
+}
+
+
 /* Footer */
+
+.footer-section{
+    padding: 25px 0;
+}
+
 footer, footer i{
     background-color: #030a4a;
     color: white
 }
 
-.footer-logo img{
+.footer-awards img{
     height: 100px;
-    vertical-align: center
+    vertical-align: center;
+    margin: 10px
 }
+
