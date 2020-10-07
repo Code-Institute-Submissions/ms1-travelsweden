@@ -234,6 +234,8 @@ footer, footer i{
 
 /************* TOUR 1 PAGE ***********/
 
+/*Hero container*/
+
 .tour1-hero-container {    
     text-align: center;
     height: 90vh;
@@ -254,4 +256,62 @@ footer, footer i{
     .tour1-hero-container h1{    
     padding-top: 100px
     }
+}
+
+/*Highlights container*/
+
+.highlights-section{
+    padding: 25px 0;
+    background-color: #F5F5DC
+}
+
+.highlights-points ul{
+    padding-left: 0
+}
+
+.highlights-points ul li{
+    list-style-type: none;
+    padding: 0;
+    font-weight: bold;
+    line-height: 2.5
+}
+
+.btn-light {
+    
+    background-color: #030a4a;
+    border-color: #f8f9fa;
+    color: white;
+}
+/*Itinerary container*/
+
+.itinerary-section{
+    background-image: url("../images/sthlm-sky.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    
+}
+
+.itinerary-details {
+    background-color: rgba(255, 255, 255, 0.8);   
+    padding: 25px
+}
+
+.itinerary-map iframe{    
+    height: 420px;
+    width: 550px;       
+    margin: 25px
+}
+
+@media screen and (max-width:450px){
+    .itinerary-map iframe{    
+    height: 200px;
+    width: 300px
+}
+
+/*Weather container*/
+
+.weather-section {
+    background-color: #F5F5DC;
+    margin: 5vh 0;
 }
