@@ -109,7 +109,7 @@ nav a {
 }
 .values-container img{
     height: 50vh;
-    padding: 45px 0;
+    padding: 45px 10px 15px 10px;
     
 }
 
@@ -128,17 +128,25 @@ nav a {
     background-repeat: no-repeat;
     background-position: 50% 50%;
     height: 100%;      
-    overflow: hidden;
+    overflow: hidden;    
 }
 
 .tour-list-section h1{
-    color: white
+    color: white;
+    margin: 25px 0
 }
 
 .card {
-    
+    margin: 25px 0 40px 0;
 }
 
+.card a {
+    color: #030a4a;
+}
+
+.card img:hover{
+    opacity: 0.8;
+}
 /* Footer */
 footer, footer i{
     background-color: #030a4a;
