@@ -5,6 +5,7 @@ body {
     overflow-x: hidden; 
     scroll-behavior: smooth;
 }
+/************* HOME PAGE ***********/
 
 /* Navbar */
 .navbar {
@@ -231,3 +232,26 @@ footer, footer i{
     
 }
 
+/************* TOUR 1 PAGE ***********/
+
+.tour1-hero-container {    
+    text-align: center;
+    height: 90vh;
+    background-image: url("../images/stockholm-archipelago.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    color: #fafafa;
+}
+
+.tour1-hero-container h1{    
+    padding-top: 35vh;
+    font-weight: 400;
+    font-size: 400%;
+}
+
+@media screen and (max-width:400px){
+    .tour1-hero-container h1{    
+    padding-top: 100px
+    }
+}
