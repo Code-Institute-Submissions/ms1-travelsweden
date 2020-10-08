@@ -545,6 +545,13 @@ footer, footer i{
     
 }
 
+@media screen and (max-width:400px){
+    .timeline-item:before {    
+    position: static;
+    }
+}
+
+
 .timeline-item:after {
     width: 12px;
     height: 12px;
