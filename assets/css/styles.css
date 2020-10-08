@@ -597,10 +597,9 @@ footer, footer i{
     color: white
 }
 
-@media screen and (max-width:1140px){
-    .meet-person h4{
+.meet-person h4{
     padding-bottom: 25px
-    }
+    
 }
 
 /*Sustainability container*/ 
