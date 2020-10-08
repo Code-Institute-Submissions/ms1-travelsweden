@@ -609,6 +609,7 @@ footer, footer i{
     
 }
 
+
 /*Sustainability container*/ 
 
 .sustain-section{
@@ -618,14 +619,15 @@ footer, footer i{
 
 .sustain-calc iframe{    
     height: 420px;
-    width: 550px;       
+    width: 580px;       
     margin: 25px
 }
 
 @media screen and (max-width:450px){
-    .sustain-calc iframe{    
-    height: 200px;
-    width: 300px
+    .sustain-calc iframe{       
+    width: 370px;
+    height: 580px;
+    margin-left: 5px
     }
 }
 
@@ -634,5 +636,5 @@ footer, footer i{
 }
 
 .sustain-section h5{
-    padding: 0 50px 15px 50px
+    padding: 0 50px 25px 50px
 }
