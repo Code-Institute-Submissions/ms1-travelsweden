@@ -411,6 +411,45 @@ footer, footer i{
     padding: 25px
 }
 
+/************* TOUR 3 PAGE ***********/
+
+/*Hero container*/
+
+.tour3-hero-container {    
+    text-align: center;
+    height: 90vh;
+    background-image: url("../images/west-coast-beach.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    color: white;
+}
+
+.tour3-hero-container h1{    
+    padding-top: 35vh;
+    font-weight: 400;
+    font-size: 400%;
+}
+
+@media screen and (max-width:400px){
+    .tour3-hero-container h1{    
+    padding-top: 150px;
+    font-size: 350%
+    }
+}
+
+.itinerary3-section{
+    background-image: url("../images/gothenburg-bridge.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    
+}
+
+.itinerary3-details {
+    background-color: rgba(255, 255, 255, 0.8);   
+    padding: 25px
+}
 /************* ABOUT PAGE ***********/
 
 /*Hero container*/
