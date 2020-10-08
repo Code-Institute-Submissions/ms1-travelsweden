@@ -14,7 +14,9 @@ html, body {
 
 nav a {
     color: white;
-    text-align: center
+    text-align: center;
+    letter-spacing: 1px
+    
 }
 
 .navbar-nav li {
@@ -23,6 +25,18 @@ nav a {
 
 
 .navbar-toggler{
+    color: white
+}
+
+.dropdown-menu{
+    min-width: 6.5rem;
+    background-color: #030a4a;
+    
+}
+
+.dropdown-item{
+    margin: 4px;
+    padding: 0;
     color: white
 }
 
@@ -263,7 +277,7 @@ footer, footer i{
 
 .highlights-section{
     padding: 25px 0;
-    background-color: #F5F5DC
+    background-color: #F5F5DC;
 }
 
 .highlights-points ul{
