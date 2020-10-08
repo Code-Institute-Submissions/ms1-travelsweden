@@ -254,8 +254,8 @@ footer, footer i{
 
 @media screen and (max-width:400px){
     .tour1-hero-container h1{    
-    padding-top: 100px;
-    font-size: 350%
+    padding-top: 125px;
+    font-size: 325%
     }
 }
 
@@ -291,7 +291,7 @@ footer, footer i{
 }
 /*Itinerary container*/
 
-.itinerary-section{
+.itinerary1-section{
     background-image: url("../images/sthlm-sky.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -299,7 +299,7 @@ footer, footer i{
     
 }
 
-.itinerary-details {
+.itinerary1-details {
     background-color: rgba(255, 255, 255, 0.8);   
     padding: 25px
 }
@@ -312,8 +312,8 @@ footer, footer i{
 
 @media screen and (max-width:450px){
     .itinerary-map iframe{    
-    height: 200px;
-    width: 300px
+    height: 225px;
+    width: 320px
     }
 }
 
@@ -349,7 +349,7 @@ footer, footer i{
 }
 
 .carousel-item img{
-    height: 80vh;
+    height: 75vh;
     object-fit: cover;
     padding: 0 25px
 }
@@ -366,12 +366,52 @@ footer, footer i{
 
 @media screen and (max-width:500px){
     .carousel-item img{
-    height: 45vh;
+    height: 45vh;    
     object-fit: cover;
     }
 }
 
-/************* TOUR 1 PAGE ***********/
+/************* TOUR 2 PAGE ***********/
+
+/*Hero container*/
+
+.tour2-hero-container {    
+    text-align: center;
+    height: 90vh;
+    background-image: url("../images/snow.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    color: white;
+}
+
+.tour2-hero-container h1{    
+    padding-top: 35vh;
+    font-weight: 400;
+    font-size: 400%;
+}
+
+@media screen and (max-width:400px){
+    .tour2-hero-container h1{    
+    padding-top: 150px;
+    font-size: 350%
+    }
+}
+
+.itinerary2-section{
+    background-image: url("../images/lapland-summer.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    
+}
+
+.itinerary2-details {
+    background-color: rgba(255, 255, 255, 0.8);   
+    padding: 25px
+}
+
+/************* ABOUT PAGE ***********/
 
 /*Hero container*/
 
@@ -393,7 +433,7 @@ footer, footer i{
 
 @media screen and (max-width:400px){
     .about-hero-container h1{    
-    padding-top: 100px;
+    padding-top: 150px;
     font-size: 350%
     }
 }
@@ -458,6 +498,12 @@ footer, footer i{
     margin: 25px
 }
 
+@media screen and (max-width:1025px){
+    .history-image img{
+    height: 50vh;
+    }
+}
+
 /*Meet container*/
 
 .meet-section{
@@ -479,6 +525,12 @@ footer, footer i{
 
 .meet-person h3, .meet-person h4{
     color: white
+}
+
+@media screen and (max-width:1140px){
+    .meet-person h4{
+    padding-bottom: 25px
+    }
 }
 
 /*Sustainability container*/ 
