@@ -1,5 +1,4 @@
-html, body {
-    font-family: 'Lato', sans-serif;
+html, body {    
     font-family: 'Raleway', sans-serif;
     text-align: center;   
     overflow-x: hidden; 
@@ -13,7 +12,7 @@ html, body {
 }
 
 nav a {
-    color: white;
+    color: #F5F5DC;
     text-align: center;
     letter-spacing: 1px
     
@@ -25,7 +24,7 @@ nav a {
 
 
 .navbar-toggler{
-    color: white
+    color: #F5F5DC
 }
 
 .dropdown-item{
@@ -46,7 +45,7 @@ nav a {
     .dropdown-item{
     margin: 4px;
     padding: 0;
-    color: white
+    color: #F5F5DC
     }
 }
 
@@ -74,7 +73,7 @@ nav a {
 }
 
 .btn-submit{
-    color: white;
+    color: #F5F5DC;
 }
 
 .btn-light{
@@ -90,7 +89,7 @@ nav a {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    color: #fafafa;
+    color: #F5F5DC;
 }
 
 .hero-container h1{    
@@ -116,10 +115,10 @@ nav a {
 }
 
 .value-text h5{
-    border: 1px solid white;
+    border: 1px solid #F5F5DC;
     background-color: #030a4a;      
     border-radius: 5px;
-    color: white;    
+    color: #F5F5DC;    
     padding: 20px 10px;
     max-width: 30%;
     text-align: center;
@@ -165,7 +164,7 @@ nav a {
 }
 
 .tour-list-section h1{
-    color: white;
+    color: #F5F5DC;
     margin: 25px 0
 }
 
@@ -232,7 +231,7 @@ nav a {
 }
 
 .why-section h1{
-    color: white;
+    color: #F5F5DC;
     margin-top: 25px
 }
 
@@ -249,7 +248,7 @@ nav a {
 
 footer, footer i{
     background-color: #030a4a;
-    color: white
+    color: #F5F5DC
 }
 
 .footer-awards img{
@@ -274,7 +273,7 @@ footer, footer i{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    color: #fafafa;
+    color: #F5F5DC;
 }
 
 .tour1-hero-container h1{    
@@ -311,8 +310,8 @@ footer, footer i{
 .btn-light {
     
     background-color: #030a4a;
-    border-color: #f8f9fa;
-    color: white;
+    border-color: #F5F5DC;
+    color: #F5F5DC;
 }
 
 @media screen and (max-width:800px){
@@ -396,6 +395,13 @@ footer, footer i{
 }
 
 @media screen and (max-width:500px){
+    .tour-picture{
+    padding: 25px 15px  
+    
+    }
+}
+
+@media screen and (max-width:500px){
     .carousel-item img{
     height: 45vh;    
     object-fit: cover;
@@ -413,7 +419,7 @@ footer, footer i{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    color: white;
+    color: #F5F5DC;
 }
 
 .tour2-hero-container h1{    
@@ -453,7 +459,7 @@ footer, footer i{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    color: white;
+    color: #F5F5DC;
 }
 
 .tour3-hero-container h1{    
@@ -492,7 +498,7 @@ footer, footer i{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    color: #fafafa;
+    color: #F5F5DC;
 }
 
 .about-hero-container h1{    
@@ -602,19 +608,19 @@ footer, footer i{
 
 .meet-section h2{
     padding-top: 25px;
-    color: white    
+    color: #F5F5DC    
 }
 
 .meet-person img{
     object-fit: contain;
     height: 30vh;
-    border: 2px white solid;
+    border: 2px #F5F5DC solid;
     border-radius: 50%;
     margin: 25px 0      
 }
 
 .meet-person h3, .meet-person h4{
-    color: white
+    color: #F5F5DC
 }
 
 .meet-person h4{
