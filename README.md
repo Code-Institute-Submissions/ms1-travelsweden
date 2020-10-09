@@ -68,9 +68,6 @@ View the Github repo: [here](https://github.com/adamdelancey/ms1-travelsweden)
     * Social media links
     * Company details such as address, email and phone number
 
-* Responsiveness
-    * Website is fully responsive and tested on various mobile devices, iPad and web browsers on desktop.
-
 ### Long-term goals
 
 Future improvements to the website may include:
@@ -168,21 +165,21 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   #### First Time Visitor Goals
 
     1. As a First Time Visitor, I want to easily understand the services offered by the company and have a positive experience when exploring the website
-        - *This was done with ABC*
+        - *Upon entering the website, users are welcomed with a clean and eye-catching design with an easy to use navbar highlighting the main sections of the website. There is a call to action for instant connection and the navbar is constant across the site.*
     2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find any tour that may interest me, and find sufficient information on that tour.
-        - *This was done with ABC*
+        - *Each tour can be selected in the navbar, on the homepage, and I also added links to the other tours from each tour page, to encourage further clicking through the site. Each tour has consistent information, icons and sections to make it easy to understand for the user.*
     3. As a First Time Visitor, I want to be able to learn more about the company's goals and values, and easily find the details that I am looking for.
-        - *This was done with ABC* 
+        - *There is a small section on the company's goals on the hompage, and the About section, which is accessible via the navbar, clearly highlights the goals and values in more detail.* 
     4. As a First Time Visitor, I want to enjoy high-quality, interesting images of the locations that I am interested in.
-        - *This was done with ABC*
+        - *In addition to the hero image, each page has a series of background images and carousel images that show off the destinations.*
     5. As a First Time Visitor, I want to be able to submit an enquiry related to the tour that I am interested in.
-        - *This was done with ABC*
+        - *Each tour page has both a contact and enquiry button, and on each tour enquiry button the tour is pre selected for the user.*
 
 -   #### Frequent User Goals
     1. As a Frequent User, I want to check to see if any new tours have been added to the website
-        - *This was done with ABC*
+        - *Tours are easy to find in the navbar, homepage, and suggested other tours, so will be easy to find for the user if any new tours were added.*
     2. As a Frequent User, I want to check to see if any new features have been added
-        - *This was done with ABC*
+        - *Similarly, as the website is easy to navigate any new features would be easily accessible to the user.*
 
 ## Fixed Bugs
 After deployment, I found multiple bugs that needed addressing.
@@ -204,4 +201,11 @@ After deployment, I found multiple bugs that needed addressing.
 | Tour list partly off page in the dropdown menu on smaller mobile devices  | Amended the padding and margin values enough to solve on most mobile devices, but still an issue an smaller the ones.   |
 | Carbon Footprint iframe too large for mobile devices | Edited as much as possible to make it fit, but still unsure on best way to edit this.  |
 | Submitting enquiry on modal forms does not actually submit itinerary  | Fix with JS, but currently outside the scope of this project. |
+| Links on Carbon Footprint iframe not opening in other tab | Not sure how to fix the iframe on this one!
  
+## Further Testing
+
+- The website has been tested on various desktop browsers such as Google Chrome, Firefox and Safari.
+- It has also been viewed on many mobile devices such as Samsung S10, iPhone7, iPhone8 and Huawei.
+- Each link has been tested across the site to ensure everything was linked correctly.
+- Friends and family members were also asked for advice, in addition to the Code Institute Peer Review Slack group.
