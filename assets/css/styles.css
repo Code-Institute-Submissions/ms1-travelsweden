@@ -200,7 +200,8 @@ nav a {
 }
 
 .carousel-item{
-    padding: 25px 150px 
+    padding: 25px 150px;
+    color: #030a4a 
 }
 
 @media screen and (max-width:800px){
