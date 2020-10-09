@@ -82,6 +82,7 @@ nav a {
 }
 /* Hero Container */
 
+  
 .hero-container {    
     text-align: center;
     height: 90vh;
@@ -90,6 +91,18 @@ nav a {
     background-repeat: no-repeat;
     background-position: 50% 50%;
     color: #F5F5DC;
+    
+}
+
+@media screen and (min-width:1125px){
+    .hero-container{    
+    animation: mymove 5s;   
+    }
+}
+
+@keyframes mymove {
+  from {background-size: 100%;}
+  to {background-size: 110%;}
 }
 
 .hero-container h1{    
@@ -273,7 +286,13 @@ footer, footer i{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    color: #F5F5DC;
+    color: #F5F5DC;    
+}
+
+@media screen and (min-width:1125px){
+    .tour1-hero-container{    
+    animation: mymove 5s;   
+    }
 }
 
 .tour1-hero-container h1{    
@@ -419,7 +438,13 @@ footer, footer i{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    color: #F5F5DC;
+    color: #F5F5DC;    
+}
+
+@media screen and (min-width:1125px){
+    .tour2-hero-container{    
+    animation: mymove 5s;   
+    }
 }
 
 .tour2-hero-container h1{    
@@ -459,7 +484,13 @@ footer, footer i{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    color: #F5F5DC;
+    color: #F5F5DC;    
+}
+
+@media screen and (min-width:1125px){
+    .tour3-hero-container{    
+    animation: mymove 5s;   
+    }
 }
 
 .tour3-hero-container h1{    
@@ -499,6 +530,13 @@ footer, footer i{
     background-repeat: no-repeat;
     background-position: 50% 50%;
     color: #F5F5DC;
+    
+}
+
+@media screen and (min-width:1125px){
+    .about-hero-container{    
+    animation: mymove 5s;   
+    }
 }
 
 .about-hero-container h1{    
