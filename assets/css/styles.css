@@ -67,6 +67,10 @@ nav a {
     }
 }
 
+.nav-options{
+    padding: 0px
+}
+
 .form-group {
     margin: 10px 25px
 }
