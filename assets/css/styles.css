@@ -126,27 +126,17 @@ nav a {
     background-color: #F5F5DC
 }
 
+.value-text h1, .value-text h4 {
+    padding: 0 25px
+}
+
 .value-text h1{
     color: #030a4a;     
 }
 
-.value-text h5{
-    border: 1px solid #F5F5DC;
-    background-color: #030a4a;      
-    border-radius: 5px;
-    color: #F5F5DC;    
-    padding: 20px 10px;
-    max-width: 30%;
-    text-align: center;
-    justify-content: center;
-    margin-left: 35%;  
-    margin-top: 5px
-}
-
-@media screen and (max-width:1200px){
-    .value-text h5{  
-        margin-top: 20px;
-        margin-bottom: 20px      
+@media screen and (max-width:450px){
+    .value-text h1{         
+        padding-top: 25px   
     }
 }
 
