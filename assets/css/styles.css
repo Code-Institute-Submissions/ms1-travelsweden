@@ -257,28 +257,6 @@ nav a {
 }
 
 
-/* Footer */
-
-.footer-section{
-    padding: 25px 0;
-}
-
-footer, footer i{
-    background-color: #030a4a;
-    color: #F5F5DC
-}
-
-.footer-awards img{
-    height: 100px;
-    vertical-align: center;
-    margin: 10px
-}
-
-.list-inline-item i{
-    padding-top: 20px;
-    
-}
-
 /************* TOUR 1 PAGE ***********/
 
 /*Hero container*/
@@ -701,4 +679,33 @@ footer, footer i{
 
 .sustain-section h5{
     padding: 0 50px 25px 50px
+}
+
+/************* Footer **************/
+
+.footer-section{
+    padding: 25px 0;
+}
+
+footer, footer i{
+    background-color: #030a4a;
+    color: #F5F5DC
+}
+
+.footer-awards img{
+    height: 100px;
+    vertical-align: center;
+    margin: 10px
+}
+
+.list-inline-item i{
+    padding: 25px;
+    font-size: 200%
+    
+}
+
+@media screen and (max-width:450px){
+    .list-inline-item i{
+    padding: 25px 5px;
+    }
 }
