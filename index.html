@@ -52,30 +52,36 @@
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
-                        <form>                            
+                        <form>
                             <div class="form-group">
                                 <label for="exampleFormControlTextarea1">Full Name</label>
                                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" placeholder="Full Name"></textarea>
                             </div>  
-                            <div class="form-group">
-                                <label for="exampleInputEmail1">Email address</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email Address" required aria-describedby="emailHelp">                                
+                            <div class="form-group">                                
+                                    <label for="validationDefault01">Email Address</label>
+                                    <input type="text" class="form-control" id="validationDefault01" placeholder="Email Address" required>                                                               
                             </div>
                             <div class="form-group">
                                 <label for="exampleFormControlTextarea1">Phone Number</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea3" rows="1" placeholder="Phone Number"></textarea>
-                                
+                                <textarea class="form-control" id="exampleFormControlTextarea3" rows="1" placeholder="Phone Number"></textarea>                                
                             </div>  
                             <div class="form-group">
                                 <label for="exampleFormControlTextarea1">Anything you'd like to add?</label>
                                 <textarea class="form-control" id="exampleFormControlTextarea2" placeholder="Hotel preference, dates, special occasion" rows="3"></textarea>
                                 <small id="emailHelp" class="form-text text-muted">We'll never share your details with anyone else.</small>
                             </div>                         
-                        </form>                    
-                        <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-submit" style="background-color: #030a4a;">Save changes</button>
-                    </div>
+                             <div class="form-group">
+                                <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                                <label class="form-check-label" for="invalidCheck2">
+                                    Agree to terms and conditions
+                                </label>
+                                </div>
+                            </div>
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button class="btn btn-primary" type="submit">Submit </button>                            
+                            </form>
+                    
                 </div>
             </div>
         </div>

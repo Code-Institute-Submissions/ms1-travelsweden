@@ -75,8 +75,19 @@ nav a {
     margin: 10px 25px
 }
 
+.btn-primary{
+    background-color: #030a4a;
+    margin-bottom: 15px
+}
+
+.btn-secondary{
+    margin-bottom: 15px
+}
+
+
 .btn-submit{
     color: #F5F5DC;
+    margin-bottom: 15px
 }
 
 .btn-light{
