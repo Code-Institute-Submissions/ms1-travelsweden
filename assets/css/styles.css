@@ -139,7 +139,7 @@ nav a {
 }
 
 .value-text h1, .value-text h4 {
-    padding: 0 25px;
+    padding: 25px 25px 0 25px;
     color: #030a4a;
 }
 
