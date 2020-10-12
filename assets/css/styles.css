@@ -663,9 +663,13 @@ nav a {
     padding: 25px 0;
 }
 
-footer, footer i{
+footer, footer i, footer a{
     background-color: #030a4a;
     color: #F5F5DC
+}
+
+.top-button{
+    margin-bottom: 25px
 }
 
 .footer-awards img{
