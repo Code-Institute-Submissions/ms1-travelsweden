@@ -191,6 +191,7 @@ After deployment, I found multiple bugs that needed addressing.
 | Text overlapping on About Page history section    | Amended the padding for mobile devices only |
 | H1 headings on hero images not central on all devices | Amended padding for best fit using media queries |
 | Text on itinerary section not easily readable over background image   | Added a white background color with opacity value of 0.8  |
+| 'Contact Us' button and 'Enquire Now' button not leading to different forms | Edited the id and target of the modals to lead to different forms |
 
 
 
