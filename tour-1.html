@@ -14,8 +14,7 @@
 <!-- START OF NAV BAR -->
 <nav class="row navbar navbar-dark navbar-expand-lg" style="background-color: #030a4a;">
    <div class="col-4"> 
-  <a class="navbar-brand" href="index.html">Travel Sweden</a>
-  
+  <a class="navbar-brand" href="index.html">Travel Sweden</a>  
    </div>
    <div class="col-4 nav-options">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,50 +45,45 @@
         <div class="modal fade" id="navModal" tabindex="-1" aria-labelledby="navModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="navModalLabel">Enquiry Details</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
+                <div class="modal-header">
+                    <h5 class="modal-title" id="navModalLabel">Enquiry Details</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <form>                            
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Full Name</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" placeholder="Full Name"></textarea>
+                    </div>  
+                    <div class="form-group">                                
+                            <label for="validationDefault01">Email Address</label>
+                            <input type="text" class="form-control" id="validationDefault01" placeholder="Email Address" required>                                                               
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Phone Number</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea3" rows="1" placeholder="Phone Number"></textarea>                                
+                    </div>  
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Anything you'd like to add?</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea2" placeholder="Hotel preference, dates, special occasion" rows="3"></textarea>
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your details with anyone else.</small>
+                    </div>                         
+                        <div class="form-group">
+                        <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                        <label class="form-check-label" for="invalidCheck2">
+                            Agree to terms and conditions
+                        </label>
                         </div>
-                        <form>                            
-                            <div class="form-group">
-                                <label for="exampleFormControlTextarea1">Full Name</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" placeholder="Full Name"></textarea>
-                            </div>  
-                            <div class="form-group">                                
-                                    <label for="validationDefault01">Email Address</label>
-                                    <input type="text" class="form-control" id="validationDefault01" placeholder="Email Address" required>                                                               
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleFormControlTextarea1">Phone Number</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea3" rows="1" placeholder="Phone Number"></textarea>                                
-                            </div>  
-                            <div class="form-group">
-                                <label for="exampleFormControlTextarea1">Anything you'd like to add?</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea2" placeholder="Hotel preference, dates, special occasion" rows="3"></textarea>
-                                <small id="emailHelp" class="form-text text-muted">We'll never share your details with anyone else.</small>
-                            </div>                         
-                             <div class="form-group">
-                                <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-                                <label class="form-check-label" for="invalidCheck2">
-                                    Agree to terms and conditions
-                                </label>
-                                </div>
-                            </div>
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button class="btn btn-primary" type="submit">Submit </button>                            
-                            </form>
-                    
+                    </div>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button class="btn btn-primary" type="submit">Submit </button>                            
+                    </form>                    
                 </div>
             </div>
         </div>
     </div>
-    
-      
-
-   
 </nav>
 <!-- END OF NAV BAR -->
 <!-- START OF HERO SECTION -->
@@ -193,9 +187,7 @@
                 <p><strong>Day 4:</strong> Enjoy a guided forest walk with your guide, including a traditional Swedish picnic lunch in a secluded area.</p>
                 <p><strong>Day 5:</strong> Return to Stockholm by ferry and enjoy a final farewell dinner in a restaurant overlooking the waters.
             </div>
-        </div>
-        
-    
+        </div>      
     </div>
 </div>
 
@@ -203,7 +195,7 @@
 
 <!-- START OF WEATHER SECTION -->
 <div class="weather-section container-fluid">
-    <h2>Weather in Stockholm</h2>
+    <h1>Weather in Stockholm</h1>
     <div class="weather-details">
         <div class="weather-month">
             <h4>January-March</h4>
@@ -235,12 +227,11 @@
         </div>
     </div>
 </div>
-
 <!-- END OF WEATHER SECTION -->
 
 <!-- START OF PHOTO GALLERY -->
 <div class="photo-gallery-section">
-    <h2>Gallery</h2>
+    <h1>Gallery</h1>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -251,27 +242,27 @@
     <div class="carousel-inner">
         <div class="carousel-item tour-picture active">
             <img src="assets/images/drottningholm.jpg" class="d-block w-100" alt="Drottningholm">
-        <div class="carousel-caption d-md-block">
-            <p>Drottningholm Castle</p>        
-        </div>
+            <div class="carousel-caption d-md-block">
+                <p>Drottningholm Castle</p>        
+            </div>
         </div>
         <div class="carousel-item tour-picture">
         <img src="assets/images/stockholm-aerial-view.jpg" class="d-block w-100" alt="Stockholm aerial view">
-        <div class="carousel-caption d-md-block">
-            <p>View over Stockholm</p>        
-        </div>
+            <div class="carousel-caption d-md-block">
+                <p>View over Stockholm</p>        
+            </div>
         </div>
         <div class="carousel-item tour-picture">
         <img src="assets/images/sthlm-archipelago.jpg" class="d-block w-100" alt="Stockholm Archipelago">
-        <div class="carousel-caption d-md-block">
-            <p>Stockholm Archipelago</p>        
-        </div>
+            <div class="carousel-caption d-md-block">
+                <p>Stockholm Archipelago</p>        
+            </div>
         </div>
         <div class="carousel-item tour-picture">
         <img src="assets/images/stockholm-night.jpg" class="d-block w-100" alt="Stockholm at night">
-        <div class="carousel-caption d-md-block">
-            <p>Stockholm at night</p>        
-        </div>
+            <div class="carousel-caption d-md-block">
+                <p>Stockholm at night</p>        
+            </div>
         </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -311,14 +302,12 @@
     </div>
     </div>
 </div>
-
 <!-- END OF TOUR LIST SECTION -->
-
 <!-- START OF FOOTER -->
 <footer class="footer-section container-fluid">
     <div class="row">
         <div class="col top-button">
-        <a href="#top"><i class="fas fa-arrow-circle-up"></i><br>Back to Top</a>
+            <a href="#top"><i class="fas fa-arrow-circle-up"></i><br>Back to Top</a>
         </div>
     </div>
     <div class="row">
@@ -355,23 +344,15 @@
                     </a>
                 </li>
             </ul>
-        </div>
-            
+        </div>            
         <div class= "col-sm-4 footer-address list-block">
             <p><i class="fa fa-home"></i> Stockholm, Sweden</p>
             <p><i class="fa fa-phone"></i> 0763134777</p>
             <p><i class="fa fa-envelope-square"></i> hello@travelsweden.se</p>
         </div>
-    </div>    
-    
+    </div>   
 </footer>
-
-
 <!-- END OF FOOTER -->
-
-
-    
-
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>

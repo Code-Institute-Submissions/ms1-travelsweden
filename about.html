@@ -15,8 +15,7 @@
 <!-- START OF NAV BAR -->
 <nav class="row navbar navbar-dark navbar-expand-lg" style="background-color: #030a4a;">
    <div class="col-4"> 
-  <a class="navbar-brand" href="index.html">Travel Sweden</a>
-  
+        <a class="navbar-brand" href="index.html">Travel Sweden</a>  
    </div>
    <div class="col-4 nav-options">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,50 +46,45 @@
         <div class="modal fade" id="navModal" tabindex="-1" aria-labelledby="navModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="navModalLabel">Enquiry Details</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="navModalLabel">Enquiry Details</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Full Name</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" placeholder="Full Name"></textarea>
+                        </div>  
+                        <div class="form-group">                                
+                            <label for="validationDefault01">Email Address</label>
+                            <input type="text" class="form-control" id="validationDefault01" placeholder="Email Address" required>                                                               
                         </div>
-                        <form>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Phone Number</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea3" rows="1" placeholder="Phone Number"></textarea>                                
+                        </div>  
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Anything you'd like to add?</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea2" placeholder="Hotel preference, dates, special occasion" rows="3"></textarea>
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your details with anyone else.</small>
+                        </div>                         
                             <div class="form-group">
-                                <label for="exampleFormControlTextarea1">Full Name</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" placeholder="Full Name"></textarea>
-                            </div>  
-                            <div class="form-group">                                
-                                    <label for="validationDefault01">Email Address</label>
-                                    <input type="text" class="form-control" id="validationDefault01" placeholder="Email Address" required>                                                               
+                            <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                            <label class="form-check-label" for="invalidCheck2">
+                                Agree to terms and conditions
+                            </label>
                             </div>
-                            <div class="form-group">
-                                <label for="exampleFormControlTextarea1">Phone Number</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea3" rows="1" placeholder="Phone Number"></textarea>                                
-                            </div>  
-                            <div class="form-group">
-                                <label for="exampleFormControlTextarea1">Anything you'd like to add?</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea2" placeholder="Hotel preference, dates, special occasion" rows="3"></textarea>
-                                <small id="emailHelp" class="form-text text-muted">We'll never share your details with anyone else.</small>
-                            </div>                         
-                             <div class="form-group">
-                                <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-                                <label class="form-check-label" for="invalidCheck2">
-                                    Agree to terms and conditions
-                                </label>
-                                </div>
-                            </div>
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button class="btn btn-primary" type="submit">Submit </button>                            
-                            </form>
-                    
+                        </div>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button class="btn btn-primary" type="submit">Submit </button>                            
+                    </form>                    
                 </div>
             </div>
         </div>
-    </div>
-    
-      
-
-   
+    </div>  
 </nav>
 <!-- END OF NAV BAR -->
 <!-- START OF HERO SECTION -->
@@ -101,71 +95,66 @@
 <!-- START OF HISTORY SECTION -->
 <div class="history-section">
     <div class="container-fluid row">
-        <div class="col-xl-6 history-text">         
+        <div class="col-lg-6 history-text">         
             <div class="row">
                 <div class="col-12">
-                    <h2 class="history-heading">
+                    <h1 class="history-heading">
                         Company Timeline
-                    </h2>
+                    </h1>
                 </div>
             </div> 
             <div class="history-items">
-            <div class="timeline-item" data-dates="2010">
-                <h4>Travel Sweden is Founded</h4>  
-                <p>The Stockholm office opens for the first time!</p>              
-            </div>   
-            <div class="timeline-item" data-dates="2012">
-                <h4>First Award</h4>
-                <p>Travel Sweden wins "Best Swedish Travel Company"</p>
-            </div>     
-            <div class="timeline-item" data-dates="2015">
-                <h4>Second office</h4>
-                <p>We open a second office in Gothenburg</p>
-            </div>     
-            <div class="timeline-item" data-dates="2018">
-                <h4>Sustainability winners</h4>
-                <p>Company is awarded for its efforts towards sustainability</p>
-            </div>   
+                <div class="timeline-item" data-dates="2010">
+                    <h4>Travel Sweden is Founded</h4>  
+                    <p>The Stockholm office opens for the first time!</p>              
+                </div>   
+                <div class="timeline-item" data-dates="2012">
+                    <h4>First Award</h4>
+                    <p>Travel Sweden wins "Best Swedish Travel Company"</p>
+                </div>     
+                <div class="timeline-item" data-dates="2015">
+                    <h4>Second office</h4>
+                    <p>We open a second office in Gothenburg</p>
+                </div>     
+                <div class="timeline-item" data-dates="2018">
+                    <h4>Sustainability winners</h4>
+                    <p>Company is awarded for its efforts towards sustainability</p>
+                </div>   
             </div>              
         </div>       
-        <div class="col-xl-6 history-image">
-            <img src="assets/images/west-coast.jpg" alt="Houses on the beach in Gothenburg">
+        <div class="col-lg-6 history-image">
+            <img src="assets/images/west-coast.jpg" alt="Houses on the beach in Gothenburg">            
         </div>
     </div>
 </div>
-
-
 <!-- END OF HISTORY SECTION -->
-
 <!-- START OF MEET SECTION -->
 <div class="meet-section">
-<h2>Meet the Team</h2>
-    <div class="container-fluid row">
-        <div class="col-xl-4 meet-person">
+    <h1>Meet the Team</h1>
+    <div class="container-fluid row meet-details">
+        <div class="col-lg-4 meet-person">
             <img src="assets/images/person-1.jpg" alt="Person 1">            
             <h3>Adam</h3>
             <h4>Founder and CEO</h4>
         </div>
-        <div class="col-xl-4 meet-person">
+        <div class="col-lg-4 meet-person">
             <img src="assets/images/person-2.jpg" alt="Person 2">            
             <h3>Emelie</h3>
             <h4>Head of Gothenburg Office</h4>
         </div>
         
-        <div class="col-xl-4 meet-person">
+        <div class="col-lg-4 meet-person">
             <img src="assets/images/person-3.jpg" alt="Person 3">            
             <h3>Björn</h3>
             <h4>Head of Marketing</h4>
         </div>    
     </div>
 </div>
-
 <!-- END OF MEET SECTION -->
-
 <!-- START OF SUSTAINABILITY SECTION -->
 <div class="sustain-section">
-<h2>Our Sustainability Commitment</h2> 
-    <div class="container-fluid row">
+    <h1>Our Sustainability Commitment</h1> 
+    <div class="container-fluid row sustain-goals">
         <div class="col-lg-6">
             <h3 class="sustain-heading">Travel Sweden Goals:</h3>                       
             <h3><i class="fas fa-child"></i> People</h3>
@@ -182,20 +171,15 @@
             <h5>Our friends at <a href="https://www.carbonfootprint.com/" target="_blank">Carbon Footprint</a> have put together this handy guide for measuring the amount of carbon produced by any of your flights. Enter the amount here and we can help you to choose the best method for offsetting your footprint.</h5> 
             <iframe style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" 
             src="https://calculator.carbonfootprint.com/calculator.aspx?c=flight"></iframe>
-
         </div>    
     </div>
-
 </div>
-
-
 <!-- END OF SUSTAINABILITY SECTION -->
-
 <!-- START OF FOOTER -->
 <footer class="footer-section container-fluid">
     <div class="row">
         <div class="col top-button">
-        <a href="#top"><i class="fas fa-arrow-circle-up"></i><br>Back to Top</a>
+            <a href="#top"><i class="fas fa-arrow-circle-up"></i><br>Back to Top</a>
         </div>
     </div>
     <div class="row">
@@ -232,8 +216,7 @@
                     </a>
                 </li>
             </ul>
-        </div>
-            
+        </div>            
         <div class= "col-sm-4 footer-address list-block">
             <p><i class="fa fa-home"></i> Stockholm, Sweden</p>
             <p><i class="fa fa-phone"></i> 0763134777</p>
@@ -241,14 +224,10 @@
         </div>
     </div>
 </footer>
-<!-- END OF FOOTER -->
-
-
-    
+<!-- END OF FOOTER -->   
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
-
 </html>

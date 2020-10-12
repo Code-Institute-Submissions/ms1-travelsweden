@@ -4,6 +4,10 @@ html, body {
     overflow-x: hidden; 
     scroll-behavior: smooth;
 }
+
+.row{
+    margin: 0
+}
 /************* HOME PAGE ***********/
 
 /* Navbar */
@@ -279,6 +283,7 @@ nav a {
 .highlights-section{
     padding: 25px 0;
     background-color: #F5F5DC;
+    color: #030a4a;
 }
 
 .highlights-points ul{
@@ -299,7 +304,7 @@ nav a {
 }
 
 @media screen and (max-width:800px){
-    .highlights-points h2{    
+    .highlights-points h1{    
     padding-top: 25px
     }
 }
@@ -310,7 +315,8 @@ nav a {
     background-image: url("../images/sthlm-sky.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50% 50%;    
+    background-position: 50% 50%;  
+    color: #030a4a;  
 }
 
 .itinerary-details{
@@ -343,10 +349,11 @@ nav a {
 /*Weather container*/
 
 .weather-section{
-    background-color: #F5F5DC
+    background-color: #F5F5DC;
+    color: #030a4a;
 }
 
-.weather-section h2{
+.weather-section h1{
     padding-top: 25px
 }
 
@@ -366,18 +373,18 @@ nav a {
     height: 95vh
 }
 
-.photo-gallery-section h2{
+.photo-gallery-section h1{
     padding-top: 25px
 }
 
 .carousel-item img{
     height: 75vh;
     object-fit: cover;
-    padding: 0 25px
+    padding: 0 25px;
 }
 
 .carousel-indicators li{
-    margin-bottom: 10px
+    margin-bottom: 25px
 }
 
 @media screen and (max-width:500px){
@@ -577,21 +584,20 @@ nav a {
     margin-bottom: 30px;
 }
 
+
+
 .history-image img{
     height: 80vh;
-    object-fit: contain;
+    width: 450px;
+    object-fit: contain;    
     margin: 25px
 }
 
-@media screen and (min-width:1250px){
-    .history-image img{
-    height: 50vh
-    }
-}
 
-@media screen and (max-width:1025px){
+
+@media screen and (max-width:960px){
     .history-image img{
-    height: 30vh;
+    height: 40vh;
     width: 100%;
     margin-left: 10px
     }
@@ -600,10 +606,14 @@ nav a {
 /*Meet container*/
 
 .meet-section{
-    background-color: #030a4a;
+    background-color: #030a4a;    
 }
 
-.meet-section h2{
+.meet-details, .sustain-goals{
+    margin: 0
+}
+
+.meet-section h1{
     padding-top: 25px;
     color: #F5F5DC    
 }
@@ -632,7 +642,7 @@ nav a {
 }
 
 .sustain-calc iframe{    
-    height: 420px;
+    height: 440px;
     width: 580px;       
     margin: 0 25px 25px 25px
 }
@@ -649,7 +659,7 @@ nav a {
     padding: 25px 0
 }
 
-.sustain-section h2{
+.sustain-section h1{
     padding-top: 25px
 }
 
