@@ -7,19 +7,14 @@ html, body {
 /************* HOME PAGE ***********/
 
 /* Navbar */
-.navbar {
-    margin: 0
-}
 
 nav a {
     color: #F5F5DC;
-    text-align: center;
-    letter-spacing: 1px
-    
+    letter-spacing: 1px    
 }
 
 .navbar-nav li {
-    margin: 0 50px 0 0px
+    margin: 0 25px 
 }
 
 .navbar-toggler{
@@ -38,7 +33,6 @@ nav a {
     background-color: #030a4a;     
     }
 }
-
     
 @media screen and (max-width:450px){
     .dropdown-item{
@@ -84,7 +78,6 @@ nav a {
     margin-bottom: 15px
 }
 
-
 .btn-submit{
     color: #F5F5DC;
     margin-bottom: 15px
@@ -95,7 +88,6 @@ nav a {
     font-weight: bold
 }
 /* Hero Container */
-
   
 .hero-container {    
     text-align: center;
@@ -104,8 +96,7 @@ nav a {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    color: #F5F5DC;
-    
+    color: #F5F5DC;    
 }
 
 @media screen and (min-width:1125px){
@@ -138,11 +129,8 @@ nav a {
 }
 
 .value-text h1, .value-text h4 {
-    padding: 0 25px
-}
-
-.value-text h1{
-    color: #030a4a;     
+    padding: 0 25px;
+    color: #030a4a;
 }
 
 @media screen and (max-width:450px){
@@ -158,14 +146,12 @@ nav a {
 }
 .values-container img{
     height: 50vh;
-    padding: 45px 10px 15px 10px;
-    
+    padding: 45px 10px 15px 10px;    
 }
 
 @media screen and (max-width:450px){
     .values-container img, .values-container p{  
-        display: none  
-    
+        display: none      
     }
 }
 
@@ -210,31 +196,29 @@ nav a {
 
 @media screen and (max-width:800px){
     .carousel-item{
-    padding: 25px 50px  
-    
+    padding: 25px 50px    
     }
 }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  height: 100px;
-  width: 100px;
-  outline: black;
-  background-size: 100%, 100%;  
-  background-image: none;
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-size: 100%, 100%;  
+    background-image: none;
 }
 
-.carousel-control-next-icon:after
-{
-  content: '>';
-  font-size: 30px;
-  color: #030a4a;
+.carousel-control-next-icon:after{
+    content: '>';
+    font-size: 30px;
+    color: #030a4a;
 }
 
 .carousel-control-prev-icon:after {
-  content: '<';
-  font-size: 30px;
-  color: #030a4a;
+    content: '<';
+    font-size: 30px;
+    color: #030a4a;
 }
 
 /* Why Section */
@@ -256,7 +240,6 @@ nav a {
 .list-heading {
     font-size: larger
 }
-
 
 /************* TOUR 1 PAGE ***********/
 
@@ -309,8 +292,7 @@ nav a {
     line-height: 2.5
 }
 
-.btn-light {
-    
+.btn-light {    
     background-color: #030a4a;
     border-color: #F5F5DC;
     color: #F5F5DC;
@@ -321,21 +303,27 @@ nav a {
     padding-top: 25px
     }
 }
+
 /*Itinerary container*/
 
 .itinerary1-section{
     background-image: url("../images/sthlm-sky.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50% 50%;
-    
-}
-.itinerary1-details{
-    padding: 0 25px
+    background-position: 50% 50%;    
 }
 
-.itinerary1-details h2, .itinerary1-details p {
-    background-color: rgba(255, 255, 255, 0.8);   
+.itinerary-details{
+    background-color: rgba(255, 255, 255, 0.8);  
+    padding: 10px 25px;
+    margin: 10px 25px
+}
+
+@media screen and (max-width:450px){
+    .itinerary-details{
+    padding: 10px 25px;
+    margin: 10px 0
+    }
 }
 
 .itinerary-map iframe{    
@@ -350,7 +338,6 @@ nav a {
     width: 320px
     }
 }
-
 
 /*Weather container*/
 
@@ -453,11 +440,6 @@ nav a {
     
 }
 
-.itinerary2-details {
-    background-color: rgba(255, 255, 255, 0.8);   
-    padding: 25px
-}
-
 /************* TOUR 3 PAGE ***********/
 
 /*Hero container*/
@@ -495,14 +477,9 @@ nav a {
     background-image: url("../images/gothenburg-bridge.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50% 50%;
-    
+    background-position: 50% 50%;    
 }
 
-.itinerary3-details {
-    background-color: rgba(255, 255, 255, 0.8);   
-    padding: 25px
-}
 /************* ABOUT PAGE ***********/
 
 /*Hero container*/
@@ -514,8 +491,7 @@ nav a {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    color: #F5F5DC;
-    
+    color: #F5F5DC;    
 }
 
 @media screen and (min-width:1125px){
@@ -555,8 +531,8 @@ nav a {
     color: #030a4a;
     border-left: 3px solid;
     margin-left: 50px
-
 }
+
 .timeline-item p{
     padding: 0;
     margin: 0;
@@ -571,7 +547,6 @@ nav a {
     font-weight: 500;
     font-size: 0.8em;
     padding: 0;
-    
 }
 
 @media screen and (max-width:500px){
@@ -595,8 +570,7 @@ nav a {
     left: -6px;
     border-radius: 12px;
     content: ' ';
-    background: #030a4a;
-    
+    background: #030a4a;    
 }
 
 .history-items {
@@ -647,10 +621,8 @@ nav a {
 }
 
 .meet-person h4{
-    padding-bottom: 25px
-    
+    padding-bottom: 25px    
 }
-
 
 /*Sustainability container*/ 
 
@@ -676,6 +648,7 @@ nav a {
 .sustain-heading{
     padding: 25px 0
 }
+
 .sustain-section h2{
     padding-top: 25px
 }
@@ -703,8 +676,7 @@ footer, footer i{
 
 .list-inline-item i{
     padding: 25px;
-    font-size: 200%
-    
+    font-size: 200%    
 }
 
 @media screen and (max-width:450px){
