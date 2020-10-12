@@ -335,7 +335,8 @@ nav a {
 @media screen and (max-width:450px){
     .itinerary-map iframe{    
     height: 225px;
-    width: 320px
+    width: 320px;
+    margin: 15px 0 0 0
     }
 }
 
@@ -387,8 +388,7 @@ nav a {
 
 @media screen and (max-width:500px){
     .tour-picture{
-    padding: 25px 15px  
-    
+    padding: 25px 15px      
     }
 }
 
