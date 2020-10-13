@@ -46,7 +46,7 @@ nav a {
     
 @media screen and (max-width:450px){
     .dropdown-item{
-    margin: 4px;
+    margin: 0px;
     padding: 0;
     color: #F5F5DC
     }
@@ -67,7 +67,7 @@ nav a {
 
 @media screen and (max-width:450px){
     .navbar-nav li{  
-        margin-left: 10px      
+        margin-left: 0px      
     }
 }
 
