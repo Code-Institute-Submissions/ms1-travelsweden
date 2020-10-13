@@ -158,9 +158,9 @@ body {
 	color: #F5F5DC;
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:450px) {
 	.hero-section h1 {
-		padding-top: 100px;
+		padding-top: 25vh;
 	}
 }
 
@@ -305,6 +305,7 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
+    color: #F5F5DC
 }
 
 @media screen and (min-width:1125px) {
@@ -319,9 +320,9 @@ body {
 	font-size: 400%;
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:450px) {
 	.tour1-hero-section h1 {
-		padding-top: 125px;
+		padding-top: 20vh;
 		font-size: 325%
 	}
 }
@@ -486,9 +487,9 @@ body {
 	font-size: 400%;
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:450px) {
 	.tour2-hero-section h1 {
-		padding-top: 150px;
+		padding-top: 25vh;
 		font-size: 350%
 	}
 }
@@ -528,9 +529,9 @@ body {
 	font-size: 400%;
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:450px) {
 	.tour3-hero-section h1 {
-		padding-top: 150px;
+		padding-top: 25vh;
 		font-size: 350%
 	}
 }
@@ -570,9 +571,9 @@ body {
 	font-size: 400%;
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:450px) {
 	.about-hero-section h1 {
-		padding-top: 150px;
+		padding-top: 25vh;
 		font-size: 350%
 	}
 }
