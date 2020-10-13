@@ -1,11 +1,12 @@
-<p align="center">
-    <img src="assets/images/responsive-display.jpg">
-
 # MS1: Travel Sweden.
 
-Project 1: User Centric Frontend Web Development Project for Code Institute.
+[View the live project here.](https://adamdelancey.github.io/ms1-travelsweden/)
 
-Designed using HTML, CSS and Bootstrap, this project focusses on a fictional Swedish travel company.
+As my submission for the Code Institute Milestone Project 1, this Travel Sweden website is based on a fictional luxury Swedish travel company
+that is looking to increase sales and improve branding for the company. It is designed to be responsible and accessible on a range of devices, making it easy to navigate for potential users.
+
+<p align="center">
+    <img src="documentation/screenshots/responsive-display.jpg">
 
 # Access
 
@@ -90,29 +91,29 @@ The About section is again 1 page and ordered structurally via importance of con
 
 ### Wireframes
 Home Page
-<p><img src="assets/images/home-desktop.jpg">
-    <img src="assets/images/home-tablet-phone.jpg"></p>
+<p><img src="documentation/screenshots/home-desktop.jpg">
+    <img src="documentation/screenshots/home-tablet-phone.jpg"></p>
 Tour Pages
-<p> <img src="assets/images/tour-desktop.jpg">
-    <img src="assets/images/tour-tablet-phone.jpg"></p>
+<p> <img src="documentation/screenshots/tour-desktop.jpg">
+    <img src="documentation/screenshots/tour-tablet-phone.jpg"></p>
 About Page
-<p> <img src="assets/images/about-desktop.jpg">
-    <img src="assets/images/about-tablet-phone.jpg"></p>
+<p> <img src="documentation/screenshots/about-desktop.jpg">
+    <img src="documentation/screenshots/about-tablet-phone.jpg"></p>
 
 Full wireframes can be accessed here:
 
--   Home Page Desktop Wireframe - [View](assets/wireframes/home-desktop.pdf)
+-   Home Page Desktop Wireframe - [View](documentation/wireframes/home-desktop.pdf)
 
--   Home Page Mobile & Tablet Wireframe - [View](assets/wireframes/home-tablet-and-mobile.pdf)
+-   Home Page Mobile & Tablet Wireframe - [View](documentation/wireframes/home-tablet-and-mobile.pdf)
     
 
--   Tour Page Desktop Wireframe - [View](assets/wireframes/tour-desktop.pdf)
+-   Tour Page Desktop Wireframe - [View](documentation/wireframes/tour-desktop.pdf)
 
--   Tour Page Mobile & Tablet Wireframe - [View](assets/wireframes/tour-tablet-and-mobile.pdf)
+-   Tour Page Mobile & Tablet Wireframe - [View](documentation/wireframes/tour-tablet-and-mobile.pdf)
 
--   About Page Desktop Wireframe - [View](assets/wireframes/about-desktop.pdf)
+-   About Page Desktop Wireframe - [View](documentation/wireframes/about-desktop.pdf)
 
--   About Page Mobile & Tablet Wireframe - [View](assets/wireframes/about-tablet-and-mobile.pdf)
+-   About Page Mobile & Tablet Wireframe - [View](documentation/wireframes/about-tablet-and-mobile.pdf)
 
 ## Surface
    
@@ -164,12 +165,12 @@ The forms on the site used in the modals of "Contact Us" and "Enquire Now" have 
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://validator.w3.org/) - all errors have been cleared.
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - there are 2 property issues found when checking the site. However, these are being validated from the Bootstrap CDN link and therefore out of my control.
+-   [W3C Markup Validator](https://validator.w3.org/) - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fadamdelancey.github.io%2Fms1-travelsweden%2F)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fadamdelancey.github.io%2Fms1-travelsweden%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) -  there are 2 property issues found when checking the site. However, these are being validated from the Bootstrap CDN link and therefore out of my control.
 
 ## Lighthouse
 
-<p ><img src="assets/images/lighthouse-scores.jpg">
+<p ><img src="documentation/screenshots/lighthouse-scores.jpg">
 
 From Chrome Developer Tools, this Lighthouse score is based on the hompage while being viewed on desktop. I worked hard on ensuring high scores across the site in particular by putting every image through [Tiny PNG](https://tinypng.com/), and improving SEO scores by adding a meta description to each page.
 
@@ -181,15 +182,15 @@ From Chrome Developer Tools, this Lighthouse score is based on the hompage while
         - *Upon entering the website, users are welcomed with a clean and eye-catching design with an easy to use navbar highlighting the main sections of the website. There is a call to action for instant connection and the navbar is constant across the site.*
     2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find any tour that may interest me, and find sufficient information on that tour.
         - *Each tour can be selected in the navbar, on the homepage, and I also added links to the other tours from each tour page, to encourage further clicking through the site. Each tour has consistent information, icons and sections to make it easy to understand for the user.*
-        <p><img src="assets/images/nav-tours.jpg"></p>
-        <p><img src="assets/images/other-tours.jpg"></p>
+        <p><img src="documentation/screenshots/nav-tours.jpg"></p>
+        <p><img src="documentation/screenshots/other-tours.jpg"></p>
     3. As a First Time Visitor, I want to be able to learn more about the company's goals and values, and easily find the details that I am looking for.
         - *There is a small section on the company's goals on the hompage, and the About section, which is accessible via the navbar, clearly highlights the goals and values in more detail.* 
     4. As a First Time Visitor, I want to enjoy high-quality, interesting images of the locations that I am interested in.
         - *In addition to the hero image, each page has a series of background images and carousel images that show off the destinations.*
     5. As a First Time Visitor, I want to be able to submit an enquiry related to the tour that I am interested in.
         - *Each tour page has both a contact and enquiry button, and on each tour enquiry button the tour is pre selected for the user.*
-        <p><img src="assets/images/enquiry-form.jpg"></p>
+        <p><img src="documentation/screenshots/enquiry-form.jpg"></p>
 
 -   #### Frequent User Goals
     1. As a Frequent User, I want to check to see if any new tours have been added to the website
@@ -232,12 +233,15 @@ After deployment, I found multiple bugs that needed addressing:
 
 # Deployment
 
-- The site is published in GitPages.
-- All code was written on the IDE Gitpod and was then pushed to GitHub where it is now stored in my repository.
-- To push the site live, under the Settings section of the repository I selected 'Master Branch' under Source.
-- This created the URL which can be viewed [here](https://adamdelancey.github.io/ms1-travelsweden/index.html)
-- To access the code, it can be run locally through a download or cloned.
-- Initially, I used "git commit" and "git push" for every major change, then at later stages used these functions when de-bugging or making minor editing changes to ensure the live version was the most recent version, as well as to avoid losing any work.
+The site was published in GitPages using the folling steps:
+1. First, all code was written on the IDE Gitpod and was then pushed to GitHub using the 'git push' entry in the terminal, where it is now stored in [my repository](https://github.com/adamdelancey/ms1-travelsweden).
+2. To push the site live, under the Settings section of the repository I selected, I scrolled down to where it says 'GitHub Pages'
+3. I then selected 'Master Branch' under Source and then the page automatically refreshed.
+4. This created the URL which can be viewed [here](https://adamdelancey.github.io/ms1-travelsweden/index.html)
+
+To access the code, it can be run locally through a download or cloned.
+
+Initially, I used "git commit" and "git push" for every major change, then at later stages used these functions when de-bugging or making minor editing changes to ensure the live version was the most recent version, as well as to avoid losing any work.
 
 # Credits
 
