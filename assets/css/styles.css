@@ -30,8 +30,9 @@ html, body {
 
 /* Navbar */
 
-nav a {    
-    letter-spacing: 1px    
+.navbar a {    
+    letter-spacing: 1px   ;
+    color: #F5F5DC 
 }
 
 .navbar-nav li {
@@ -40,9 +41,18 @@ nav a {
 
 .dropdown-item{
     margin: 4px;
-    padding: 0;    
+    padding: 0;       
 }
 
+.dropdown-menu a{
+    color: #030a4a
+}
+
+@media screen and (max-width:450px){
+.dropdown-menu a{
+    color: #F5F5DC
+    }
+}
 @media screen and (min-width: 1300px){
 .nav-link-home a{
     margin-left: 125px 
@@ -59,8 +69,7 @@ nav a {
 @media screen and (max-width:450px){
     .dropdown-item{
     margin: 0px;
-    padding: 0;
-    color: #F5F5DC
+    padding: 0;    
     }
 }
 
@@ -69,6 +78,10 @@ nav a {
     margin-left: 30px;
     width: 75% 
     }
+}
+
+.navbar-toggler{
+    color: #F5F5DC
 }
 
 @media screen and (max-width:450px){
@@ -127,6 +140,7 @@ nav a {
     padding-top: 35vh;
     font-weight: 400;
     font-size: 400%;
+    color: #F5F5DC;
 }
 
 @media screen and (max-width:400px){
