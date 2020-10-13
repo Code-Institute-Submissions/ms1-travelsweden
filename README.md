@@ -78,7 +78,13 @@ Future improvements to the website may include:
 
 ## Structure
 
-Separate pages - more info tbc.
+I made the decision to have the site split into 3 clear sections - Home, Tours & About, with each page having the same navbar and footer details for consistency and ease of use.
+
+The Home section is 1 page and is ordered structurally via importance of content, starting with a large hero section at the top of the page, then moving onto a short summary, tour selection, reviews and reasons why section. I structured it this way based on what I believe is most important, in addition to taking inspiration from other leading travel sites.
+
+The Tours section is then split into 3 structurally equal pages, just with different content. As these are the product of the site, these can be navigated to from every page of the site, and within the tour pages themselves at the bottom. Having the tours on separate pages allows easy navigation and structure, and is what you would expect as a user.
+
+The About section is again 1 page and ordered structurally via importance of content.
 
 ## Skeleton
 
@@ -111,7 +117,7 @@ Full wireframes can be accessed here:
    
 ### Design
 -   #### Colour Scheme
-    -   The two main colours used are a shade of dark blue, #030a4a, and a beige/offwhite colour, #F5F5DC. Many of the background images used throughout the site also aims to include these colours.
+    -   The two main colours used are a shade of dark blue, #030a4a, and a beige/off-white colour, #F5F5DC. These are used throughout the site in each section, buttons and forms, and were chosen due to being contrasting colours and appealing to the eye. Many of the background images used throughout the site also aims to include these colours.
 -   #### Typography
     -   The Raleway font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Raleway is an elegant font, frequently used for high-end websites and so was chosen to reflect the quality of the trips sold.
 -   #### Imagery
@@ -157,8 +163,14 @@ The forms on the site used in the modals of "Contact Us" and "Enquire Now" have 
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://validator.w3.org/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+-   [W3C Markup Validator](https://validator.w3.org/) - all errors have been cleared.
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - there are 2 property issues found when checking the site. However, these are being validated from the Bootstrap CDN link and therefore out of my control.
+
+## Lighthouse
+
+<p ><img src="assets/images/lighthouse-scores.jpg">
+
+From Chrome Developer Tools, this Lighthouse score is based on the hompage while being viewed on desktop. I worked hard on ensuring high scores across the site in particularly by putting every image through [Tiny PNG](https://tinypng.com/), and improving SEO scores by adding a meta description to each page.
 
 ## Testing User Stories from User Experience (UX) Section
 
@@ -182,7 +194,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         - *Similarly, as the website is easy to navigate any new features would be easily accessible to the user.*
 
 ## Fixed Bugs
-After deployment, I found multiple bugs that needed addressing.
+After deployment, I found multiple bugs that needed addressing:
 
 | Bug         | Fix         |
 | ----------- | ----------- |
@@ -201,12 +213,39 @@ After deployment, I found multiple bugs that needed addressing.
 | ----------- | ----------- |
 | Tour list partly off page in the dropdown menu on smaller mobile devices  | Amended the padding and margin values enough to solve on most mobile devices, but still an issue an smaller the ones.   |
 | Carbon Footprint iframe too large for mobile devices | Edited as much as possible to make it fit, but still unsure on best way to edit this.  |
-| Submitting enquiry on modal forms does not actually submit itinerary  | Fix with JS, but currently outside the scope of this project. |
+| Submitting enquiry on modal forms does not actually submit enquiry  | Fix with JS, but currently outside the scope of this project. |
 | Links on Carbon Footprint iframe not opening in other tab | Not sure how to fix the iframe on this one!
  
 ## Further Testing
 
 - The website has been tested on various desktop browsers such as Google Chrome, Firefox and Safari.
-- It has also been viewed on many mobile devices such as Samsung S10, iPhone7, iPhone8 and Huawei.
+- It has also been viewed on many mobile devices such as Samsung S10, iPhone7, iPhone8 and Huawei 20 Pro.
 - Each link has been tested across the site to ensure everything was linked correctly.
 - Friends and family members were also asked for advice, in addition to the Code Institute Peer Review Slack group.
+
+# Deployment
+
+- The site is published in GitPages.
+- All code was written on the IDE Gitpod and was then pushed to GitHub where it is now stored in my repository.
+- To push the site live, under the Settings section of the repository I selected 'Master Branch' under Source.
+- This created the URL which can be viewed [here](https://adamdelancey.github.io/ms1-travelsweden/index.html)
+- To access the code, it can be run locally through a download or cloned.
+- Initially, I used "git commit" and "git push" for every major change, then at later stages used these functions when de-bugging or making minor editing changes to ensure the live version was the most recent version, as well as to avoid losing any work.
+
+# Credits
+
+- All images have been sourced from a combination of [Pexels](https://www.pexels.com/) and [Pixabay](https://pixabay.com/)
+- The Navbar, Carousels and Cards have been chosen from Bootstrap templates and adapted using CSS.
+- The Timeline on the About Page has been taken from the Whiskey Drop CI project and amended using CSS for this project.
+- [Stack Overflow](https://stackoverflow.com/) was used for occasional debugging or issues where I could not initially work out the solution myself.
+- The maps on the Tour pages is from [Google Maps](https://www.google.com/maps) and then using the embed function.
+- The carbon calculator on the About page is from [Carbon Footprint](https://www.carbonfootprint.com/integrate.html) and then I used their integrate features.
+- Fonts are from [Google Fonts](https://fonts.google.com/) and icons from [Font Awesome](https://fontawesome.com/)
+
+
+# Acknowledgements
+
+- My mentor, Aaron Sinnott, for his help throughout the project.
+- The peer-code-review and user-centric-frontend channels on Slack and their trusty channel leads for both code and design tips.
+- Friends and family for testing the site on their various devices.
+- My girlfriend, for supplying endless tea when I got frustrated!
