@@ -20,7 +20,7 @@ View the Github repo: [here](https://github.com/adamdelancey/ms1-travelsweden)
 ### Business Objectives
 
 1. To increase the number of direct enquiries through the website
-2. To provide up-to-date information on the tours, key information and any offers in one place
+2. To provide up-to-date information on the tours and key information in one place
 3. To create an overall positive image for our users by using strong branding
 
 ### User stories
