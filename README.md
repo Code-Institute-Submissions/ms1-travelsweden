@@ -236,8 +236,8 @@ After deployment, I found multiple bugs that needed addressing:
 # Credits
 
 - All images have been sourced from a combination of [Pexels](https://www.pexels.com/) and [Pixabay](https://pixabay.com/)
-- The Navbar, Carousels and Cards have been chosen from Bootstrap templates and adapted using CSS.
-- The Timeline on the About Page has been taken from the Whiskey Drop CI project and amended using CSS for this project.
+- The Navbar, Forms, Carousels, Cards and Weather charts on the Tour Pages have been chosen from Bootstrap templates and adapted using CSS.
+- The Timeline on the About Page and  has been taken from the Whiskey Drop CI project and amended using CSS for this project.
 - [Stack Overflow](https://stackoverflow.com/) was used for occasional debugging or issues where I could not initially work out the solution myself.
 - The maps on the Tour pages is from [Google Maps](https://www.google.com/maps) and then using the embed function.
 - The carbon calculator on the About page is from [Carbon Footprint](https://www.carbonfootprint.com/integrate.html) and then I used their integrate features.

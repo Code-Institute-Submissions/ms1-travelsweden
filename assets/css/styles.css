@@ -109,6 +109,8 @@ nav a {
     color: #F5F5DC;    
 }
 
+/* This animation was taken from CSS Tricks website */
+
 @media screen and (min-width:1125px){
     .hero-section{    
     animation: mymove 5s;   
@@ -214,6 +216,7 @@ nav a {
     padding: 25px 50px    
     }
 }
+/* This carousel-control CSS was taken from an Stack Overflow */
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
@@ -542,6 +545,8 @@ nav a {
     color: #030a4a;
     margin: 25px
 }
+
+/*These timeline-item styling was partly taken from the CI Whiskey project */
 
 .timeline-item{
     padding: 2em 2em 0em 2em;
