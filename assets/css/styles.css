@@ -99,7 +99,7 @@ nav a {
 }
 /* Hero Container */
   
-.hero-container {    
+.hero-section {    
     text-align: center;
     height: 90vh;
     background-image: url("../images/deck-lake-forest.jpg");
@@ -110,7 +110,7 @@ nav a {
 }
 
 @media screen and (min-width:1125px){
-    .hero-container{    
+    .hero-section{    
     animation: mymove 5s;   
     }
 }
@@ -120,21 +120,21 @@ nav a {
   to {background-size: 110%;}
 }
 
-.hero-container h1{    
+.hero-section h1{    
     padding-top: 35vh;
     font-weight: 400;
     font-size: 400%;
 }
 
 @media screen and (max-width:400px){
-    .hero-container h1{    
+    .hero-section h1{    
     padding-top: 100px;    
     }
 }
 
 /* Values Container */
 
-.values-container{
+.values-section{
     background-color: #F5F5DC
 }
 
@@ -154,18 +154,18 @@ nav a {
         margin-bottom: 50px      
     }
 }
-.values-container img{
+.values-section img{
     height: 50vh;
     padding: 45px 10px 15px 10px;    
 }
 
 @media screen and (max-width:450px){
-    .values-container img, .values-container p{  
+    .values-section img, .values-section p{  
         display: none      
     }
 }
 
-/* Values Container */
+/* Tour List Container */
 
 .tour-list-section {
     background-image: url("../images/northern-lights.jpg");
@@ -260,7 +260,7 @@ nav a {
 
 /*Hero container*/
 
-.tour1-hero-container {    
+.tour1-hero-section {    
     text-align: center;
     height: 90vh;
     background-image: url("../images/stockholm-archipelago.jpg");
@@ -271,25 +271,25 @@ nav a {
 }
 
 @media screen and (min-width:1125px){
-    .tour1-hero-container{    
+    .tour1-hero-section{    
     animation: mymove 5s;   
     }
 }
 
-.tour1-hero-container h1{    
+.tour1-hero-section h1{    
     padding-top: 35vh;
     font-weight: 400;
     font-size: 400%;
 }
 
 @media screen and (max-width:400px){
-    .tour1-hero-container h1{    
+    .tour1-hero-section h1{    
     padding-top: 125px;
     font-size: 325%
     }
 }
 
-/*Highlights container*/
+/*Highlights section*/
 
 .highlights-section{
     padding: 25px 0;
@@ -421,7 +421,7 @@ nav a {
 
 /*Hero container*/
 
-.tour2-hero-container {    
+.tour2-hero-section {    
     text-align: center;
     height: 90vh;
     background-image: url("../images/snow.jpg");
@@ -432,19 +432,19 @@ nav a {
 }
 
 @media screen and (min-width:1125px){
-    .tour2-hero-container{    
+    .tour2-hero-section{    
     animation: mymove 5s;   
     }
 }
 
-.tour2-hero-container h1{    
+.tour2-hero-section h1{    
     padding-top: 35vh;
     font-weight: 400;
     font-size: 400%;
 }
 
 @media screen and (max-width:400px){
-    .tour2-hero-container h1{    
+    .tour2-hero-section h1{    
     padding-top: 150px;
     font-size: 350%
     }
@@ -462,7 +462,7 @@ nav a {
 
 /*Hero container*/
 
-.tour3-hero-container {    
+.tour3-hero-section {    
     text-align: center;
     height: 90vh;
     background-image: url("../images/west-coast-beach.jpg");
@@ -473,19 +473,19 @@ nav a {
 }
 
 @media screen and (min-width:1125px){
-    .tour3-hero-container{    
+    .tour3-hero-section{    
     animation: mymove 5s;   
     }
 }
 
-.tour3-hero-container h1{    
+.tour3-hero-section h1{    
     padding-top: 35vh;
     font-weight: 400;
     font-size: 400%;
 }
 
 @media screen and (max-width:400px){
-    .tour3-hero-container h1{    
+    .tour3-hero-section h1{    
     padding-top: 150px;
     font-size: 350%
     }
@@ -502,7 +502,7 @@ nav a {
 
 /*Hero container*/
 
-.about-hero-container {    
+.about-hero-section {    
     text-align: center;
     height: 90vh;
     background-image: url("../images/about-hero.jpg");
@@ -513,19 +513,19 @@ nav a {
 }
 
 @media screen and (min-width:1125px){
-    .about-hero-container{    
+    .about-hero-section{    
     animation: mymove 5s;   
     }
 }
 
-.about-hero-container h1{    
+.about-hero-section h1{    
     padding-top: 35vh;
     font-weight: 400;
     font-size: 400%;
 }
 
 @media screen and (max-width:400px){
-    .about-hero-container h1{    
+    .about-hero-section h1{    
     padding-top: 150px;
     font-size: 350%
     }
@@ -595,8 +595,6 @@ nav a {
     margin-bottom: 30px;
 }
 
-
-
 .history-image img{
     height: 80vh;
     width: 450px;
@@ -604,12 +602,18 @@ nav a {
     margin: 25px
 }
 
-
-
 @media screen and (max-width:960px){
     .history-image img{
     height: 40vh;
     width: 100%;
+    margin-left: 10px
+    }
+}
+
+@media screen and (min-width: 1300px){
+    .history-image img{
+    height: 50vh;
+    width: 100%;    
     margin-left: 10px
     }
 }
