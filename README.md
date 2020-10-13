@@ -172,7 +172,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 <p ><img src="documentation/screenshots/lighthouse-scores.jpg">
 
-From Chrome Developer Tools, this Lighthouse score is based on the hompage while being viewed on desktop. I worked hard on ensuring high scores across the site in particular by putting every image through [Tiny PNG](https://tinypng.com/), and improving SEO scores by adding a meta description to each page.
+From Chrome Developer Tools, this Lighthouse score is based on the homepage while being viewed on desktop. I worked hard on ensuring high scores across the site in particular by putting every image through [Tiny PNG](https://tinypng.com/), and improving SEO scores by adding a meta description to each page.
 
 ## Testing User Stories from User Experience (UX) Section
 
@@ -185,7 +185,7 @@ From Chrome Developer Tools, this Lighthouse score is based on the hompage while
         <p><img src="documentation/screenshots/nav-tours.jpg"></p>
         <p><img src="documentation/screenshots/other-tours.jpg"></p>
     3. As a First Time Visitor, I want to be able to learn more about the company's goals and values, and easily find the details that I am looking for.
-        - *There is a small section on the company's goals on the hompage, and the About section, which is accessible via the navbar, clearly highlights the goals and values in more detail.* 
+        - *There is a small section on the company's goals on the homepage, and the About section, which is accessible via the navbar, clearly highlights the goals and values in more detail.* 
     4. As a First Time Visitor, I want to enjoy high-quality, interesting images of the locations that I am interested in.
         - *In addition to the hero image, each page has a series of background images and carousel images that show off the destinations.*
     5. As a First Time Visitor, I want to be able to submit an enquiry related to the tour that I am interested in.

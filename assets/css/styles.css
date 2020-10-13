@@ -1,730 +1,772 @@
-html, body {    
-    font-family: 'Raleway', sans-serif;
-    text-align: center;   
-    overflow-x: hidden; 
-    scroll-behavior: smooth;
+html,
+body {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
 }
+
 
 /************* COLOURS ***********/
 
-.text-blue{
-    color: #030a4a
+.text-blue {
+	color: #030a4a
 }
 
-.text-white{
-    color: #F5F5DC
+.text-white {
+	color: #F5F5DC
 }
 
-.bg-blue{
-    background-color: #030a4a
+.bg-blue {
+	background-color: #030a4a
 }
 
-.bg-white{
-    background-color: #F5F5DC
+.bg-white {
+	background-color: #F5F5DC
 }
 
-.row{
-    margin: 0
+.row {
+	margin: 0
 }
+
+
 /************* HOME PAGE ***********/
+
 
 /* Navbar */
 
-.navbar a {    
-    letter-spacing: 1px   ;
-    color: #F5F5DC 
+.navbar a {
+	letter-spacing: 1px;
+	color: #F5F5DC
 }
 
 .navbar-nav li {
-    margin: 0 25px 
+	margin: 0 25px
 }
 
-.dropdown-item{
-    margin: 4px;
-    padding: 0;       
+.dropdown-item {
+	margin: 4px;
+	padding: 0;
 }
 
-.dropdown-menu a{
-    color: #030a4a
+.dropdown-menu a {
+	color: #030a4a
 }
 
-@media screen and (max-width:450px){
-.dropdown-menu a{
-    color: #F5F5DC
-    }
-}
-@media screen and (min-width: 1300px){
-.nav-link-home a{
-    margin-left: 125px 
-    }
+@media screen and (max-width:450px) {
+	.dropdown-menu a {
+		color: #F5F5DC
+	}
 }
 
-@media screen and (max-width:450px){
-    .dropdown-menu{
-    min-width: 6.5rem;
-    background-color: #030a4a;     
-    }
-}
-    
-@media screen and (max-width:450px){
-    .dropdown-item{
-    margin: 0px;
-    padding: 0;    
-    }
+@media screen and (min-width: 1300px) {
+	.nav-link-home a {
+		margin-left: 125px
+	}
 }
 
-@media screen and (min-width:600px){
-    .dropdown-item{
-    margin-left: 30px;
-    width: 75% 
-    }
+@media screen and (max-width:450px) {
+	.dropdown-menu {
+		min-width: 6.5rem;
+		background-color: #030a4a;
+	}
 }
 
-.navbar-toggler{
-    color: #F5F5DC
+@media screen and (max-width:450px) {
+	.dropdown-item {
+		margin: 0px;
+		padding: 0;
+	}
 }
 
-@media screen and (max-width:450px){
-    .enquiry-button{  
-        display: none      
-    }
+@media screen and (min-width:600px) {
+	.dropdown-item {
+		margin-left: 30px;
+		width: 75%
+	}
 }
 
-@media screen and (max-width:450px){
-    .navbar-nav li{  
-        margin-left: 0px      
-    }
+.navbar-toggler {
+	color: #F5F5DC
 }
 
-.nav-options{
-    padding: 0px
+@media screen and (max-width:450px) {
+	.enquiry-button {
+		display: none
+	}
+}
+
+@media screen and (max-width:450px) {
+	.navbar-nav li {
+		margin-left: 0px
+	}
+}
+
+.nav-options {
+	padding: 0px
 }
 
 .form-group {
-    margin: 10px 25px
+	margin: 10px 25px
 }
 
-.btn-primary, .btn-secondary{  
-    margin-bottom: 15px
+.btn-primary,
+.btn-secondary {
+	margin-bottom: 15px
 }
 
-.btn-light{
-    color: #030a4a;
-    font-weight: bold
+.btn-light {
+	color: #030a4a;
+	font-weight: bold
 }
+
+
 /* Hero Container */
-  
-.hero-section {    
-    text-align: center;
-    height: 90vh;
-    background-image: url("../images/deck-lake-forest.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    color: #F5F5DC;   
+
+.hero-section {
+	text-align: center;
+	height: 90vh;
+	background-image: url("../images/deck-lake-forest.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	color: #F5F5DC;
 }
+
 
 /* This animation was taken from CSS Tricks website */
 
-@media screen and (min-width:1125px){
-    .hero-section{    
-    animation: mymove 5s;   
-    }
+@media screen and (min-width:1125px) {
+	.hero-section {
+		animation: mymove 5s;
+	}
 }
 
 @keyframes mymove {
-  from {background-size: 100%;}
-  to {background-size: 110%;}
+	from {
+		background-size: 100%;
+	}
+	to {
+		background-size: 110%;
+	}
 }
 
-.hero-section h1{    
-    padding-top: 35vh;
-    font-weight: 400;
-    font-size: 400%;
-    color: #F5F5DC;
+.hero-section h1 {
+	padding-top: 35vh;
+	font-weight: 400;
+	font-size: 400%;
+	color: #F5F5DC;
 }
 
-@media screen and (max-width:400px){
-    .hero-section h1{    
-    padding-top: 100px;    
-    }
+@media screen and (max-width:400px) {
+	.hero-section h1 {
+		padding-top: 100px;
+	}
 }
+
 
 /* Values Container */
 
-.values-section{
-    background-color: #F5F5DC
+.values-section {
+	background-color: #F5F5DC
 }
 
-.value-text h1, .value-text h4 {
-    padding: 25px 25px 0 25px;    
+.value-text h1,
+.value-text h4 {
+	padding: 25px 25px 0 25px;
 }
 
-@media screen and (max-width:450px){
-    .value-text h1{         
-        padding-top: 25px   
-    }
+@media screen and (max-width:450px) {
+	.value-text h1 {
+		padding-top: 25px
+	}
 }
 
-@media screen and (max-width:450px){
-    .value-text h4{         
-        margin-bottom: 50px      
-    }
-}
-.values-section img{
-    height: 50vh;
-    padding: 45px 10px 15px 10px;    
+@media screen and (max-width:450px) {
+	.value-text h4 {
+		margin-bottom: 50px
+	}
 }
 
-@media screen and (max-width:450px){
-    .values-section img, .values-section p{  
-        display: none      
-    }
+.values-section img {
+	height: 50vh;
+	padding: 45px 10px 15px 10px;
 }
+
+@media screen and (max-width:450px) {
+	.values-section img,
+	.values-section p {
+		display: none
+	}
+}
+
 
 /* Tour List Container */
 
 .tour-list-section {
-    background-image: url("../images/northern-lights.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    height: 100%;      
-    overflow: hidden;    
+	background-image: url("../images/northern-lights.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	height: 100%;
+	overflow: hidden;
 }
 
-.tour-list-section h1{   
-    margin: 25px 0;
-    color: #F5F5DC;   
+.tour-list-section h1 {
+	margin: 25px 0;
+	color: #F5F5DC;
 }
 
 .card {
-    margin: 25px 0 40px 0;
-    
+	margin: 25px 0 40px 0;
 }
 
 .card-list {
-    padding: 0
+	padding: 0
 }
 
-.card img:hover{
-    opacity: 0.8;
+.card img:hover {
+	opacity: 0.8;
 }
+
 
 /* Review Section */
 
-.review-section{
-    background-color: #F5F5DC
+.review-section {
+	background-color: #F5F5DC
 }
 
-.carousel-item{
-    padding: 25px 150px;
-    color: #030a4a 
+.carousel-item {
+	padding: 25px 150px;
+	color: #030a4a
 }
 
-@media screen and (max-width:800px){
-    .carousel-item{
-    padding: 25px 50px    
-    }
+@media screen and (max-width:800px) {
+	.carousel-item {
+		padding: 25px 50px
+	}
 }
+
+
 /* This carousel-control CSS was taken from an Stack Overflow */
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    height: 100px;
-    width: 100px;
-    outline: black;
-    background-size: 100%, 100%;  
-    background-image: none;
+	height: 100px;
+	width: 100px;
+	outline: black;
+	background-size: 100%, 100%;
+	background-image: none;
 }
 
-.carousel-control-next-icon:after{
-    content: '>';
-    font-size: 30px;
-    color: #030a4a;
+.carousel-control-next-icon:after {
+	content: '>';
+	font-size: 30px;
+	color: #030a4a;
 }
 
 .carousel-control-prev-icon:after {
-    content: '<';
-    font-size: 30px;
-    color: #030a4a;
+	content: '<';
+	font-size: 30px;
+	color: #030a4a;
 }
+
 
 /* Why Section */
 
 .why-section {
-    background-image: url("../images/frozen-lake.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    height: 100%;      
-    overflow: hidden;    
+	background-image: url("../images/frozen-lake.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	height: 100%;
+	overflow: hidden;
 }
 
-.why-section h1{
-    color: #F5F5DC;
-    margin-top: 25px
+.why-section h1 {
+	color: #F5F5DC;
+	margin-top: 25px
 }
 
 .list-heading {
-    font-size: larger
+	font-size: larger
 }
+
 
 /************* TOUR 1 PAGE ***********/
 
+
 /*Hero container*/
 
-.tour1-hero-section {    
-    text-align: center;
-    height: 90vh;
-    background-image: url("../images/stockholm-archipelago.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;      
+.tour1-hero-section {
+	text-align: center;
+	height: 90vh;
+	background-image: url("../images/stockholm-archipelago.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
 }
 
-@media screen and (min-width:1125px){
-    .tour1-hero-section{    
-    animation: mymove 5s;   
-    }
+@media screen and (min-width:1125px) {
+	.tour1-hero-section {
+		animation: mymove 5s;
+	}
 }
 
-.tour1-hero-section h1{    
-    padding-top: 35vh;
-    font-weight: 400;
-    font-size: 400%;
+.tour1-hero-section h1 {
+	padding-top: 35vh;
+	font-weight: 400;
+	font-size: 400%;
 }
 
-@media screen and (max-width:400px){
-    .tour1-hero-section h1{    
-    padding-top: 125px;
-    font-size: 325%
-    }
+@media screen and (max-width:400px) {
+	.tour1-hero-section h1 {
+		padding-top: 125px;
+		font-size: 325%
+	}
 }
+
 
 /*Highlights section*/
 
-.highlights-section{    
-    background-color: #F5F5DC;
-    color: #030a4a;
-    padding: 25px 0;    
+.highlights-section {
+	background-color: #F5F5DC;
+	color: #030a4a;
+	padding: 25px 0;
 }
 
-.highlights-points ul{
-    padding-left: 0
+.highlights-points ul {
+	padding-left: 0
 }
 
-.highlights-points ul li{
-    list-style-type: none;
-    padding: 0;
-    font-weight: bold;
-    line-height: 2.5
+.highlights-points ul li {
+	list-style-type: none;
+	padding: 0;
+	font-weight: bold;
+	line-height: 2.5
 }
 
-.btn-light {    
-    background-color: #030a4a;
-    border-color: #F5F5DC;
-    color: #F5F5DC;
+.btn-light {
+	background-color: #030a4a;
+	border-color: #F5F5DC;
+	color: #F5F5DC;
 }
 
-@media screen and (max-width:800px){
-    .highlights-points h1{    
-    padding-top: 25px
-    }
+@media screen and (max-width:800px) {
+	.highlights-points h1 {
+		padding-top: 25px
+	}
 }
+
 
 /*Itinerary container*/
 
-.itinerary1-section{
-    background-image: url("../images/sthlm-sky.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;  
-    color: #030a4a;  
+.itinerary1-section {
+	background-image: url("../images/sthlm-sky.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	color: #030a4a;
 }
 
-.itinerary-details{
-    background-color: rgba(255, 255, 255, 0.8);  
-    padding: 10px 25px;
-    margin: 10px 25px
+.itinerary-details {
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 10px 25px;
+	margin: 10px 25px
 }
 
-@media screen and (max-width:450px){
-    .itinerary-details{
-    padding: 10px 25px;
-    margin: 10px 0
-    }
+@media screen and (max-width:450px) {
+	.itinerary-details {
+		padding: 10px 25px;
+		margin: 10px 0
+	}
 }
 
-.itinerary-map iframe{    
-    height: 420px;
-    width: 550px;       
-    margin: 25px
+.itinerary-map iframe {
+	height: 420px;
+	width: 550px;
+	margin: 25px
 }
 
-@media screen and (max-width:450px){
-    .itinerary-map iframe{    
-    height: 225px;
-    width: 300px;
-    margin: 15px 0 0 0
-    }
+@media screen and (max-width:450px) {
+	.itinerary-map iframe {
+		height: 225px;
+		width: 300px;
+		margin: 15px 0 0 0
+	}
 }
+
 
 /*Weather container*/
 
-.weather-section{
-    background-color: #F5F5DC;
-    color: #030a4a;
+.weather-section {
+	background-color: #F5F5DC;
+	color: #030a4a;
 }
 
-.weather-section h1{
-    padding-top: 25px
+.weather-section h1 {
+	padding-top: 25px
 }
 
 .weather-month {
-    padding: 25px 150px
+	padding: 25px 150px
 }
 
-@media screen and (max-width:450px){
-    .weather-month {
-    padding: 25px
-    }
+@media screen and (max-width:450px) {
+	.weather-month {
+		padding: 25px
+	}
 }
+
 
 /*Photo Gallery container*/
 
-.photo-gallery-section{
-    height: 95vh
+.photo-gallery-section {
+	height: 95vh
 }
 
-.photo-gallery-section h1{
-    padding-top: 25px
+.photo-gallery-section h1 {
+	padding-top: 25px
 }
 
-.carousel-item img{
-    height: 75vh;
-    object-fit: cover;
-    padding: 0 25px;
+.carousel-item img {
+	height: 75vh;
+	object-fit: cover;
+	padding: 0 25px;
 }
 
-.carousel-indicators li{
-    margin-bottom: 25px
+.carousel-indicators li {
+	margin-bottom: 25px
 }
 
-@media screen and (max-width:500px){
-    .photo-gallery-section{
-    height: 65vh
-    }
+@media screen and (max-width:500px) {
+	.photo-gallery-section {
+		height: 65vh
+	}
 }
 
-@media screen and (max-width:500px){
-    .tour-picture{
-    padding: 25px 15px      
-    }
+@media screen and (max-width:500px) {
+	.tour-picture {
+		padding: 25px 15px
+	}
 }
 
-@media screen and (max-width:500px){
-    .carousel-item img{
-    height: 45vh;    
-    object-fit: cover;
-    }
+@media screen and (max-width:500px) {
+	.carousel-item img {
+		height: 45vh;
+		object-fit: cover;
+	}
 }
+
 
 /************* TOUR 2 PAGE ***********/
 
+
 /*Hero container*/
 
-.tour2-hero-section {    
-    text-align: center;
-    height: 90vh;
-    background-image: url("../images/snow.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    color: #F5F5DC;    
+.tour2-hero-section {
+	text-align: center;
+	height: 90vh;
+	background-image: url("../images/snow.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	color: #F5F5DC;
 }
 
-@media screen and (min-width:1125px){
-    .tour2-hero-section{    
-    animation: mymove 5s;   
-    }
+@media screen and (min-width:1125px) {
+	.tour2-hero-section {
+		animation: mymove 5s;
+	}
 }
 
-.tour2-hero-section h1{    
-    padding-top: 35vh;
-    font-weight: 400;
-    font-size: 400%;
+.tour2-hero-section h1 {
+	padding-top: 35vh;
+	font-weight: 400;
+	font-size: 400%;
 }
 
-@media screen and (max-width:400px){
-    .tour2-hero-section h1{    
-    padding-top: 150px;
-    font-size: 350%
-    }
+@media screen and (max-width:400px) {
+	.tour2-hero-section h1 {
+		padding-top: 150px;
+		font-size: 350%
+	}
 }
 
-.itinerary2-section{
-    background-image: url("../images/lapland-summer.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    
+.itinerary2-section {
+	background-image: url("../images/lapland-summer.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
 }
+
 
 /************* TOUR 3 PAGE ***********/
 
+
 /*Hero container*/
 
-.tour3-hero-section {    
-    text-align: center;
-    height: 90vh;
-    background-image: url("../images/west-coast-beach.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    color: #F5F5DC;    
+.tour3-hero-section {
+	text-align: center;
+	height: 90vh;
+	background-image: url("../images/west-coast-beach.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	color: #F5F5DC;
 }
 
-@media screen and (min-width:1125px){
-    .tour3-hero-section{    
-    animation: mymove 5s;   
-    }
+@media screen and (min-width:1125px) {
+	.tour3-hero-section {
+		animation: mymove 5s;
+	}
 }
 
-.tour3-hero-section h1{    
-    padding-top: 35vh;
-    font-weight: 400;
-    font-size: 400%;
+.tour3-hero-section h1 {
+	padding-top: 35vh;
+	font-weight: 400;
+	font-size: 400%;
 }
 
-@media screen and (max-width:400px){
-    .tour3-hero-section h1{    
-    padding-top: 150px;
-    font-size: 350%
-    }
+@media screen and (max-width:400px) {
+	.tour3-hero-section h1 {
+		padding-top: 150px;
+		font-size: 350%
+	}
 }
 
-.itinerary3-section{
-    background-image: url("../images/gothenburg-bridge.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;    
+.itinerary3-section {
+	background-image: url("../images/gothenburg-bridge.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
 }
+
 
 /************* ABOUT PAGE ***********/
 
+
 /*Hero container*/
 
-.about-hero-section {    
-    text-align: center;
-    height: 90vh;
-    background-image: url("../images/about-hero.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    color: #F5F5DC;    
+.about-hero-section {
+	text-align: center;
+	height: 90vh;
+	background-image: url("../images/about-hero.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	color: #F5F5DC;
 }
 
-@media screen and (min-width:1125px){
-    .about-hero-section{    
-    animation: mymove 5s;   
-    }
+@media screen and (min-width:1125px) {
+	.about-hero-section {
+		animation: mymove 5s;
+	}
 }
 
-.about-hero-section h1{    
-    padding-top: 35vh;
-    font-weight: 400;
-    font-size: 400%;
+.about-hero-section h1 {
+	padding-top: 35vh;
+	font-weight: 400;
+	font-size: 400%;
 }
 
-@media screen and (max-width:400px){
-    .about-hero-section h1{    
-    padding-top: 150px;
-    font-size: 350%
-    }
+@media screen and (max-width:400px) {
+	.about-hero-section h1 {
+		padding-top: 150px;
+		font-size: 350%
+	}
 }
+
 
 /*History container*/
 
-.history-section{
-    background-color: #F5F5DC;
-    height: 100%
+.history-section {
+	background-color: #F5F5DC;
+	height: 100%
 }
 
-.history-heading{
-    color: #030a4a;
-    margin: 25px
+.history-heading {
+	color: #030a4a;
+	margin: 25px
 }
+
 
 /*These timeline-item styling was partly taken from the CI Whiskey project */
 
-.timeline-item{
-    padding: 2em 2em 0em 2em;
-    position: relative;
-    color: #030a4a;
-    border-left: 3px solid;
-    margin-left: 50px
+.timeline-item {
+	padding: 2em 2em 0em 2em;
+	position: relative;
+	color: #030a4a;
+	border-left: 3px solid;
+	margin-left: 50px
 }
 
-.timeline-item p{
-    padding: 0;
-    margin: 0;
+.timeline-item p {
+	padding: 0;
+	margin: 0;
 }
 
 .timeline-item:before {
-    content: attr(data-dates);
-    position: absolute;
-    left: 2.5em;
-    top: 3em;
-    display: block;
-    font-weight: 500;
-    font-size: 0.8em;
-    padding: 0;
+	content: attr(data-dates);
+	position: absolute;
+	left: 2.5em;
+	top: 3em;
+	display: block;
+	font-weight: 500;
+	font-size: 0.8em;
+	padding: 0;
 }
 
-@media screen and (max-width:500px){
-    .timeline-item:before {    
-    position: static;
-    }
+@media screen and (max-width:500px) {
+	.timeline-item:before {
+		position: static;
+	}
 }
 
-@media screen and (max-width:500px){
-    .timeline-item {    
-    margin-left: 0px
-    }
+@media screen and (max-width:500px) {
+	.timeline-item {
+		margin-left: 0px
+	}
 }
 
 .timeline-item:after {
-    width: 12px;
-    height: 12px;
-    display: block;
-    top: 2.4em;
-    position: absolute;
-    left: -6px;
-    border-radius: 12px;
-    content: ' ';
-    background: #030a4a;    
+	width: 12px;
+	height: 12px;
+	display: block;
+	top: 2.4em;
+	position: absolute;
+	left: -6px;
+	border-radius: 12px;
+	content: ' ';
+	background: #030a4a;
 }
 
 .history-items {
-    margin-bottom: 30px;
+	margin-bottom: 30px;
 }
 
-.history-image img{
-    height: 80vh;
-    width: 450px;
-    object-fit: contain;    
-    margin: 25px
+.history-image img {
+	height: 80vh;
+	width: 450px;
+	object-fit: contain;
+	margin: 25px
 }
 
-@media screen and (max-width:960px){
-    .history-image img{
-    height: 40vh;
-    width: 100%;
-    margin-left: 10px
-    }
+@media screen and (max-width:960px) {
+	.history-image img {
+		height: 40vh;
+		width: 100%;
+		margin-left: 10px
+	}
 }
 
-@media screen and (min-width: 1300px){
-    .history-image img{
-    height: 50vh;
-    width: 100%;    
-    margin-left: 10px
-    }
+@media screen and (min-width: 1300px) {
+	.history-image img {
+		height: 50vh;
+		width: 100%;
+		margin-left: 10px
+	}
 }
+
 
 /*Meet container*/
 
-.meet-section{
-    background-color: #030a4a;    
+.meet-section {
+	background-color: #030a4a;
 }
 
-.meet-details, .sustain-goals{
-    margin: 0
+.meet-details,
+.sustain-goals {
+	margin: 0
 }
 
-.meet-section h1{
-    padding-top: 25px;
-    color: #F5F5DC    
+.meet-section h1 {
+	padding-top: 25px;
+	color: #F5F5DC
 }
 
-.meet-person img{
-    object-fit: contain;
-    height: 30vh;
-    border: 2px #F5F5DC solid;
-    border-radius: 50%;
-    margin: 25px 0      
+.meet-person img {
+	object-fit: contain;
+	height: 30vh;
+	border: 2px #F5F5DC solid;
+	border-radius: 50%;
+	margin: 25px 0
 }
 
-.meet-person h3, .meet-person h4{
-    color: #F5F5DC
+.meet-person h3,
+.meet-person h4 {
+	color: #F5F5DC
 }
 
-.meet-person h4{
-    padding-bottom: 25px    
+.meet-person h4 {
+	padding-bottom: 25px
 }
 
-/*Sustainability container*/ 
 
-.sustain-section{
-    background-color: #F5F5DC;
-    color:  #030a4a
+/*Sustainability container*/
+
+.sustain-section {
+	background-color: #F5F5DC;
+	color: #030a4a
 }
 
-.sustain-calc iframe{    
-    height: 440px;
-    width: 580px;       
-    margin: 0 25px 25px 25px
+.sustain-calc iframe {
+	height: 440px;
+	width: 580px;
+	margin: 0 25px 25px 25px
 }
 
-@media screen and (max-width:450px){
-    .sustain-calc iframe{       
-    width: 100%;
-    height: 580px;
-    margin-left: 5px
-    }
+@media screen and (max-width:450px) {
+	.sustain-calc iframe {
+		width: 100%;
+		height: 580px;
+		margin-left: 5px
+	}
 }
 
-.sustain-heading{
-    padding: 25px 0
+.sustain-heading {
+	padding: 25px 0
 }
 
-.sustain-section h1{
-    padding-top: 25px
+.sustain-section h1 {
+	padding-top: 25px
 }
 
-.sustain-section h5{
-    padding: 0 50px 25px 50px
+.sustain-section h5 {
+	padding: 0 50px 25px 50px
 }
+
 
 /************* Footer **************/
 
-.footer-section{
-    padding: 25px 0;
+.footer-section {
+	padding: 25px 0;
 }
 
-footer, footer i, footer a{
-    background-color: #030a4a;
-    color: #F5F5DC
+footer,
+footer i,
+footer a {
+	background-color: #030a4a;
+	color: #F5F5DC
 }
 
-.top-button{
-    margin-bottom: 25px;
+.top-button {
+	margin-bottom: 25px;
 }
 
-.footer-awards img{
-    height: 100px;
-    vertical-align: center;
-    margin: 10px
+.footer-awards img {
+	height: 100px;
+	vertical-align: center;
+	margin: 10px
 }
 
-.list-inline-item i{
-    padding: 25px;
-    font-size: 200%    
+.list-inline-item i {
+	padding: 25px;
+	font-size: 200%
 }
 
-@media screen and (max-width:450px){
-    .list-inline-item i{
-    padding: 25px 5px;
-    }
+@media screen and (max-width:450px) {
+	.list-inline-item i {
+		padding: 25px 5px;
+	}
 }
