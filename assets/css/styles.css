@@ -5,6 +5,24 @@ html, body {
     scroll-behavior: smooth;
 }
 
+/************* COLOURS ***********/
+
+.text-blue{
+    color: #030a4a
+}
+
+.text-white{
+    color: #F5F5DC
+}
+
+.bg-blue{
+    background-color: #030a4a
+}
+
+.bg-white{
+    background-color: #F5F5DC
+}
+
 .row{
     margin: 0
 }
@@ -12,8 +30,7 @@ html, body {
 
 /* Navbar */
 
-nav a {
-    color: #F5F5DC;
+nav a {    
     letter-spacing: 1px    
 }
 
@@ -21,14 +38,9 @@ nav a {
     margin: 0 25px 
 }
 
-.navbar-toggler{
-    color: #F5F5DC
-}
-
 .dropdown-item{
     margin: 4px;
-    padding: 0;
-    color: #030a4a
+    padding: 0;    
 }
 
 @media screen and (min-width: 1300px){
@@ -79,17 +91,7 @@ nav a {
     margin: 10px 25px
 }
 
-.btn-primary{
-    background-color: #030a4a;
-    margin-bottom: 15px
-}
-
-.btn-secondary{
-    margin-bottom: 15px
-}
-
-.btn-submit{
-    color: #F5F5DC;
+.btn-primary, .btn-secondary{  
     margin-bottom: 15px
 }
 
@@ -106,7 +108,6 @@ nav a {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    color: #F5F5DC;    
 }
 
 /* This animation was taken from CSS Tricks website */
@@ -141,8 +142,7 @@ nav a {
 }
 
 .value-text h1, .value-text h4 {
-    padding: 25px 25px 0 25px;
-    color: #030a4a;
+    padding: 25px 25px 0 25px;    
 }
 
 @media screen and (max-width:450px){
@@ -178,8 +178,7 @@ nav a {
     overflow: hidden;    
 }
 
-.tour-list-section h1{
-    color: #F5F5DC;
+.tour-list-section h1{   
     margin: 25px 0
 }
 
@@ -190,10 +189,6 @@ nav a {
 
 .card-list {
     padding: 0
-}
-
-.card a {
-    color: #030a4a;
 }
 
 .card img:hover{
@@ -269,8 +264,7 @@ nav a {
     background-image: url("../images/stockholm-archipelago.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50% 50%;
-    color: #F5F5DC;    
+    background-position: 50% 50%;      
 }
 
 @media screen and (min-width:1125px){
@@ -294,10 +288,10 @@ nav a {
 
 /*Highlights section*/
 
-.highlights-section{
-    padding: 25px 0;
+.highlights-section{    
     background-color: #F5F5DC;
     color: #030a4a;
+    padding: 25px 0;    
 }
 
 .highlights-points ul{
