@@ -181,12 +181,15 @@ From Chrome Developer Tools, this Lighthouse score is based on the hompage while
         - *Upon entering the website, users are welcomed with a clean and eye-catching design with an easy to use navbar highlighting the main sections of the website. There is a call to action for instant connection and the navbar is constant across the site.*
     2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find any tour that may interest me, and find sufficient information on that tour.
         - *Each tour can be selected in the navbar, on the homepage, and I also added links to the other tours from each tour page, to encourage further clicking through the site. Each tour has consistent information, icons and sections to make it easy to understand for the user.*
+        <p><img src="assets/images/nav-tours.jpg"></p>
+        <p><img src="assets/images/other-tours.jpg"></p>
     3. As a First Time Visitor, I want to be able to learn more about the company's goals and values, and easily find the details that I am looking for.
         - *There is a small section on the company's goals on the hompage, and the About section, which is accessible via the navbar, clearly highlights the goals and values in more detail.* 
     4. As a First Time Visitor, I want to enjoy high-quality, interesting images of the locations that I am interested in.
         - *In addition to the hero image, each page has a series of background images and carousel images that show off the destinations.*
     5. As a First Time Visitor, I want to be able to submit an enquiry related to the tour that I am interested in.
         - *Each tour page has both a contact and enquiry button, and on each tour enquiry button the tour is pre selected for the user.*
+        <p><img src="assets/images/enquiry-form.jpg"></p>
 
 -   #### Frequent User Goals
     1. As a Frequent User, I want to check to see if any new tours have been added to the website
@@ -205,6 +208,9 @@ After deployment, I found multiple bugs that needed addressing:
 | H1 headings on hero images not central on all devices | Amended padding for best fit using media queries |
 | Text on itinerary section not easily readable over background image   | Added a white background color with opacity value of 0.8  |
 | 'Contact Us' button and 'Enquire Now' button not leading to different forms | Edited the id and target of the modals to lead to different forms |
+| Tour list partly off page in the dropdown menu on smaller mobile devices  | Amended the surrounding padding and margin to 0 in order to fit on the smallest device on Dev Tools |
+| Cards copied from Bootstrap not centered | Discovered that this was due to the 'row' class so edited margin to 0. |
+| Pictures were slowing down loading time of each page | Edited the pixels via TinyPMG and reloaded the Pictures|
 
 
 
@@ -212,10 +218,10 @@ After deployment, I found multiple bugs that needed addressing:
 
 | Bug         | Fix         |
 | ----------- | ----------- |
-| Tour list partly off page in the dropdown menu on smaller mobile devices  | Amended the padding and margin values enough to solve on most mobile devices, but still an issue an smaller the ones.   |
 | Carbon Footprint iframe too large for mobile devices | Edited as much as possible to make it fit, but still unsure on best way to edit this.  |
 | Submitting enquiry on modal forms does not actually submit enquiry  | Fix with JS, but currently outside the scope of this project. |
-| Links on Carbon Footprint iframe not opening in other tab | Not sure how to fix the iframe on this one!
+| Links on Carbon Footprint iframe not opening in other tab | Not sure how to fix the iframe on this one! |
+
  
 ## Further Testing
 
