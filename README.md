@@ -89,14 +89,15 @@ The About section is again 1 page and ordered structurally via importance of con
 ## Skeleton
 
 ### Wireframes
-
-<p>
-    <img src="assets/images/home-desktop.jpg">
-    <img src="assets/images/home-tablet-phone.jpg">
-    <img src="assets/images/tour-desktop.jpg">
-    <img src="assets/images/tour-tablet-phone.jpg">
-    <img src="assets/images/about-desktop.jpg">
-    <img src="assets/images/about-tablet-phone.jpg">
+Home Page
+<p><img src="assets/images/home-desktop.jpg">
+    <img src="assets/images/home-tablet-phone.jpg"></p>
+Tour Pages
+<p> <img src="assets/images/tour-desktop.jpg">
+    <img src="assets/images/tour-tablet-phone.jpg"></p>
+About Page
+<p> <img src="assets/images/about-desktop.jpg">
+    <img src="assets/images/about-tablet-phone.jpg"></p>
 
 Full wireframes can be accessed here:
 
@@ -170,7 +171,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 <p ><img src="assets/images/lighthouse-scores.jpg">
 
-From Chrome Developer Tools, this Lighthouse score is based on the hompage while being viewed on desktop. I worked hard on ensuring high scores across the site in particularly by putting every image through [Tiny PNG](https://tinypng.com/), and improving SEO scores by adding a meta description to each page.
+From Chrome Developer Tools, this Lighthouse score is based on the hompage while being viewed on desktop. I worked hard on ensuring high scores across the site in particular by putting every image through [Tiny PNG](https://tinypng.com/), and improving SEO scores by adding a meta description to each page.
 
 ## Testing User Stories from User Experience (UX) Section
 

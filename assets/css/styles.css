@@ -352,7 +352,7 @@ nav a {
 @media screen and (max-width:450px){
     .itinerary-map iframe{    
     height: 225px;
-    width: 320px;
+    width: 300px;
     margin: 15px 0 0 0
     }
 }
