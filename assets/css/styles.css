@@ -121,6 +121,7 @@ html, body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
+    color: #F5F5DC;   
 }
 
 /* This animation was taken from CSS Tricks website */
@@ -193,7 +194,8 @@ html, body {
 }
 
 .tour-list-section h1{   
-    margin: 25px 0
+    margin: 25px 0;
+    color: #F5F5DC;   
 }
 
 .card {
