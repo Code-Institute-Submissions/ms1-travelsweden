@@ -128,6 +128,9 @@ body {
 	height: 90vh;
 	background-image: url("../images/deck-lake-forest.jpg");
 	background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 	color: #F5F5DC;
@@ -226,6 +229,9 @@ body {
 .tour-list-section {
 	background-image: url("../images/northern-lights.jpg");
 	background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 	height: 100%;
@@ -297,6 +303,9 @@ body {
 .why-section {
 	background-image: url("../images/frozen-lake.jpg");
 	background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 	height: 100%;
@@ -323,6 +332,9 @@ body {
 	height: 90vh;
 	background-image: url("../images/stockholm-archipelago.jpg");
 	background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 	color: #F5F5DC
@@ -386,6 +398,9 @@ body {
 .itinerary1-section {
 	background-image: url("../images/sthlm-sky.jpg");
 	background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 	color: #030a4a;
@@ -492,6 +507,9 @@ body {
 	height: 90vh;
 	background-image: url("../images/lapland-sunset.jpg");
 	background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 	color: #F5F5DC;
@@ -519,6 +537,9 @@ body {
 .itinerary2-section {
 	background-image: url("../images/lapland-summer.jpg");
 	background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 }
@@ -534,6 +555,9 @@ body {
 	height: 90vh;
 	background-image: url("../images/koster-coast.jpg");
 	background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 	color: #F5F5DC;
@@ -561,6 +585,9 @@ body {
 .itinerary3-section {
 	background-image: url("../images/gothenburg-bridge.jpg");
 	background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 }
@@ -576,6 +603,9 @@ body {
 	height: 90vh;
 	background-image: url("../images/about-hero.jpg");
 	background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 	color: #F5F5DC;
