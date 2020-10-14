@@ -20,9 +20,9 @@ View the Github repo: [here](https://github.com/adamdelancey/ms1-travelsweden)
 
 ### Business Objectives
 
-1. To increase the number of direct enquiries through the website
-2. To provide up-to-date information on the tours and key information in one place
-3. To create an overall positive image for our users by using strong branding
+1. To increase the number of direct enquiries through the website.
+2. To provide up-to-date information on the tours and key information in one place.
+3. To create an overall positive image for our users by using strong branding.
 
 ### User stories
 
@@ -35,8 +35,8 @@ View the Github repo: [here](https://github.com/adamdelancey/ms1-travelsweden)
     5. As a First Time Visitor, I want to be able to submit an enquiry related to the tour that I am interested in.
 
 -   #### Frequent User Goals
-    1. As a Frequent User, I want to check to see if any new tours have been added to the website
-    2. As a Frequent User, I want to check to see if any new features have been added
+    1. As a Frequent User, I want to check to see if any new tours have been added to the website.
+    2. As a Frequent User, I want to check to see if any new features have been added.
 
 ## Scope
 
