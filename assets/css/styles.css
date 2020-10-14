@@ -338,11 +338,12 @@ body {
 	padding-top: 35vh;
 	font-weight: 400;
 	font-size: 400%;
+    
 }
 
 @media screen and (max-width:450px) {
 	.tour1-hero-section h1 {
-		padding-top: 20vh;
+		padding-top: 25vh;
 		font-size: 325%
 	}
 }
@@ -489,7 +490,7 @@ body {
 .tour2-hero-section {
 	text-align: center;
 	height: 90vh;
-	background-image: url("../images/snow.jpg");
+	background-image: url("../images/lapland-sunset.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
@@ -531,7 +532,7 @@ body {
 .tour3-hero-section {
 	text-align: center;
 	height: 90vh;
-	background-image: url("../images/west-coast-beach.jpg");
+	background-image: url("../images/koster-coast.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
