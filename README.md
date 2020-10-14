@@ -180,7 +180,7 @@ From Chrome Developer Tools, this Lighthouse score is based on the homepage whil
 
 -   #### First Time Visitor Goals
 
-    1. As a First Time Visitor, I want to easily understand the services offered by the company and have a positive experience when exploring the website
+    1. As a First Time Visitor, I want to easily understand the services offered by the company and have a positive experience when exploring the website.
         - *Upon entering the website, users are welcomed with a clean and eye-catching design with an easy to use navbar highlighting the main sections of the website. There is a call to action for instant connection and the navbar is constant across the site.*
     2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find any tour that may interest me, and find sufficient information on that tour.
         - *Each tour can be selected in the navbar, on the homepage, and I also added links to the other tours from each tour page, to encourage further clicking through the site. Each tour has consistent information, icons and sections to make it easy to understand for the user.*
@@ -195,9 +195,9 @@ From Chrome Developer Tools, this Lighthouse score is based on the homepage whil
         <p><img src="documentation/screenshots/enquiry-form.jpg"></p>
 
 -   #### Frequent User Goals
-    1. As a Frequent User, I want to check to see if any new tours have been added to the website
+    1. As a Frequent User, I want to check to see if any new tours have been added to the website.
         - *Tours are easy to find in the navbar, homepage, and suggested other tours, so will be easy to find for the user if any new tours were added.*
-    2. As a Frequent User, I want to check to see if any new features have been added
+    2. As a Frequent User, I want to check to see if any new features have been added.
         - *Similarly, as the website is easy to navigate any new features would be easily accessible to the user.*
 
 ## Fixed Bugs
@@ -205,15 +205,15 @@ After deployment, I found multiple bugs that needed addressing:
 
 | Bug         | Fix         |
 | ----------- | ----------- |
-| White margin down right hand side of page on mobile   | Added overflow-x: hidden; to the html and body in CSS  |
-| Enquiry and contact modals not working on all pages   | Amended the Bootstrap data-target |
-| Text overlapping on About Page history section    | Amended the padding for mobile devices only |
-| H1 headings on hero images not central on all devices | Amended padding for best fit using media queries |
-| Text on itinerary section not easily readable over background image   | Added a white background color with opacity value of 0.8  |
-| 'Contact Us' button and 'Enquire Now' button not leading to different forms | Edited the id and target of the modals to lead to different forms |
-| Tour list partly off page in the dropdown menu on smaller mobile devices  | Amended the surrounding padding and margin to 0 in order to fit on the smallest device on Dev Tools |
-| Cards copied from Bootstrap not centered | Discovered that this was due to the 'row' class so edited margin to 0. |
-| Pictures were slowing down loading time of each page | Edited the pixels via TinyPMG and reloaded the Pictures|
+| White margin down right hand side of page on mobile.   | Added overflow-x: hidden; to the html and body in CSS.  |
+| Enquiry and contact modals not working on all pages.   | Amended the Bootstrap data-target. |
+| Text overlapping on About Page history section.    | Amended the padding for mobile devices only. |
+| H1 headings on hero images not central on all devices. | Amended padding for best fit using media queries. |
+| Text on itinerary section not easily readable over background image.   | Added a white background color with opacity value of 0.8.  |
+| 'Contact Us' button and 'Enquire Now' button not leading to different forms. | Edited the id and target of the modals to lead to different forms. |
+| Tour list partly off page in the dropdown menu on smaller mobile devices.  | Amended the surrounding padding and margin to 0 in order to fit on the smallest device on Dev Tools. |
+| Cards copied from Bootstrap not centered. | Discovered that this was due to the 'row' class so edited margin to 0. |
+| Pictures were slowing down loading time of each page. | Edited the pixels via TinyPMG and reloaded the Pictures.|
 
 
 
@@ -221,9 +221,9 @@ After deployment, I found multiple bugs that needed addressing:
 
 | Bug         | Fix         |
 | ----------- | ----------- |
-| Carbon Footprint iframe too large for mobile devices | Edited as much as possible to make it fit, but still unsure on best way to edit this.  |
-| Submitting enquiry on modal forms does not actually submit enquiry  | Fix with JS, but currently outside the scope of this project. |
-| Links on Carbon Footprint iframe not opening in other tab | Not sure how to fix the iframe on this one! |
+| Carbon Footprint iframe too large for mobile devices. | Edited as much as possible to make it fit, but still unsure on best way to edit this.  |
+| Submitting enquiry on modal forms does not actually submit enquiry.  | Fix with JS, but currently outside the scope of this project. |
+| Links on Carbon Footprint iframe not opening in other tab. | Not sure how to fix the iframe on this one! |
 
  
 ## Further Testing
@@ -237,9 +237,9 @@ After deployment, I found multiple bugs that needed addressing:
 
 The site was published in GitPages using the folling steps:
 1. First, all code was written on the IDE Gitpod and was then pushed to GitHub using the 'git push' entry in the terminal, where it is now stored in [my repository](https://github.com/adamdelancey/ms1-travelsweden).
-2. To push the site live, under the Settings section of the repository I selected, I scrolled down to where it says 'GitHub Pages'
+2. To push the site live, under the Settings section of the repository I selected, I scrolled down to where it says 'GitHub Pages'.
 3. I then selected 'Master Branch' under Source and then the page automatically refreshed.
-4. This created the URL which can be viewed [here](https://adamdelancey.github.io/ms1-travelsweden/index.html)
+4. This created the URL which can be viewed [here](https://adamdelancey.github.io/ms1-travelsweden/index.html).
 
 To access the code, it can be run locally through a download or cloned.
 
@@ -253,7 +253,7 @@ Initially, I used "git commit" and "git push" for every major change, then at la
 - [Stack Overflow](https://stackoverflow.com/) was used for occasional debugging or issues where I could not initially work out the solution myself.
 - The maps on the Tour pages is from [Google Maps](https://www.google.com/maps) and then using the embed function.
 - The carbon calculator on the About page is from [Carbon Footprint](https://www.carbonfootprint.com/integrate.html) and then I used their integrate features.
-- Fonts are from [Google Fonts](https://fonts.google.com/) and icons from [Font Awesome](https://fontawesome.com/)
+- Fonts are from [Google Fonts](https://fonts.google.com/) and icons from [Font Awesome](https://fontawesome.com/).
 
 
 # Acknowledgements
