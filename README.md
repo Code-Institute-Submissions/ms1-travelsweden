@@ -3,7 +3,7 @@
 [View the live project here.](https://adamdelancey.github.io/ms1-travelsweden/)
 
 As my submission for the Code Institute Milestone Project 1, this Travel Sweden website is based on a fictional luxury Swedish travel company
-that is looking to increase sales and improve branding for the company. It is designed to be responsible and accessible on a range of devices, making it easy to navigate for potential users.
+that is looking to increase sales and improve branding for the company. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential users.
 
 <p align="center">
     <img src="documentation/screenshots/responsive-display.jpg">
@@ -28,7 +28,7 @@ View the Github repo: [here](https://github.com/adamdelancey/ms1-travelsweden)
 
 -   #### First Time Visitor Goals
 
-    1. As a First Time Visitor, I want to easily understand the services offered by the company and have a positive experience when exploring the website
+    1. As a First Time Visitor, I want to easily understand the services offered by the company and have a positive experience when exploring the website.
     2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find any tour that may interest me, and find sufficient information on that tour.
     3. As a First Time Visitor, I want to be able to learn more about the company's goals and values, and easily find the details that I am looking for.
     4. As a First Time Visitor, I want to enjoy high-quality, interesting images of the locations that I am interested in.
@@ -46,46 +46,47 @@ View the Github repo: [here](https://github.com/adamdelancey/ms1-travelsweden)
     * Dropdown tour menu and contact form modal, which is easily located and acts as an immediate call to action to boost enquiries.
 
 * Home Page
-    * Impressive and interesting use of imagery in the hero image and backgrounds of certain sections
-    * 3 cards showing the tours that the company offers, giving easy access and allowing the user to quickly see which tours are available and where they are located
-    * A review carousel aimed to give a positive impression of the company
-    * 3 cards showing the reasons to travel with us, giving short and concise answers.
+    * Impressive and interesting use of imagery in the hero image and backgrounds of certain sections.
+    * Three cards showing the tours that the company offers, giving easy access and allowing the user to quickly see which tours are available and where they are located.
+    * A review carousel aimed to give a positive impression of the company.
+    * three cards showing the reasons to travel with us, giving short and concise answers.
 
 * Tour Page
-    * Impressive and interesting use of imagery in the hero image, backgrounds of certain sections and additionally in the carousel
-    * Well presented tour highlights and key facts for the user to easily understand
-    * A second enquire button to act as a call to action, which will already have the tour name selected at the top 
-    * A day-by-day itinerary and map API from Google Maps to see the location of the tour
-    * A weather chart using sliders to see the average rainfall and temperatures at different times of the year
+    * Impressive and interesting use of imagery in the hero image, backgrounds of certain sections and additionally in the carousel.
+    * Well presented tour highlights and key facts for the user to easily understand.
+    * A second enquire button to act as a call to action, which will already have the tour name selected at the top.
+    * A day-by-day itinerary and map API from Google Maps to see the location of the starting point of the tour.
+    * A weather chart using sliders to see the average rainfall and temperatures at different times of the year.
 
 * About Page
-    * Impressive and interesting use of imagery in the hero image and backgrounds of certain sections
-    * Company history presented as timeline for instant understanding
-    * Photos and texts of the team members to make the company appear more personable
-    * Sustainability values, including an iframe of carbon emissions so that users can understand their carbon footprint from any flight taken
+    * Impressive and interesting use of imagery in the hero image and backgrounds of certain sections.
+    * Company history presented as timeline for instant understanding.
+    * Photos and texts of the team members to make the company appear more personable.
+    * Sustainability values, including an iframe of carbon emissions so that users can understand their carbon footprint from any flight taken.
 
 * Footer
-    * Awards won to further the positive impression
-    * Social media links
-    * Company details such as address, email and phone number
+    * 'Back to top' shortcut to improve user experience
+    * Awards won to further the positive impression.
+    * Social media links.
+    * Company details such as address, email and phone number.
 
 ### Long-term goals
 
 Future improvements to the website may include:
 
-* A blog section to improve SEO and include customer stories and experiences
-* Offers on tours to entice customers to make enquiries
-* A payment system such as Stripe to take direct bookings and not just enquiries
+* A blog section to improve SEO and include customer stories and experiences.
+* Offers on tours to entice customers to make enquiries.
+* A payment system such as Stripe to take direct bookings and not just enquiries.
 
 ## Structure
 
-I made the decision to have the site split into 3 clear sections - Home, Tours & About, with each page having the same navbar and footer details for consistency and ease of use.
+I made the decision to have the site split into three clear sections - Home, Tours & About, with each page having the same navbar and footer details for consistency and ease of use.
 
-The Home section is 1 page and is ordered structurally via importance of content, starting with a large hero section at the top of the page, then moving onto a short summary, tour selection, reviews and reasons why section. I structured it this way based on what I believe is most important, in addition to taking inspiration from other leading travel sites.
+The Home section is one page and is ordered structurally via importance of content, starting with a large hero section at the top of the page, then moving onto a short summary, tour selection, reviews and reasons why section. I structured it this way based on what I believe is most important, in addition to taking inspiration from other leading travel sites.
 
-The Tours section is then split into 3 structurally equal pages, just with different content. As these are the product of the site, these can be navigated to from every page of the site, and within the tour pages themselves at the bottom. Having the tours on separate pages allows easy navigation and structure, and is what you would expect as a user.
+The Tours section is then split into three structurally equal pages, just with different content. As these are the products of the business, these can be accessed from every page of the site, and within the tour pages themselves at the bottom. Having the tours on separate pages allows easy navigation and structure, and is what you would expect as a user.
 
-The About section is again 1 page and ordered structurally via importance of content.
+The About section is again one page and ordered structurally via importance of content.
 
 ## Skeleton
 
@@ -119,7 +120,7 @@ Full wireframes can be accessed here:
    
 ### Design
 -   #### Colour Scheme
-    -   The two main colours used are a shade of dark blue, #030a4a, and a beige/off-white colour, #F5F5DC. These are used throughout the site in each section, buttons and forms, and were chosen due to being contrasting colours and appealing to the eye. Many of the background images used throughout the site also aims to include these colours.
+    -   The two main colours used are a shade of dark blue, #030a4a, and a beige/off-white colour, #F5F5DC. These are used throughout the site in each section, buttons and forms, and were chosen due to being contrasting colours and appealing to the eye. Many of the background images used throughout the site also aim to include these colours.
 -   #### Typography
     -   The Raleway font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Raleway is an elegant font, frequently used for high-end websites and so was chosen to reflect the quality of the trips sold.
 -   #### Imagery
@@ -131,7 +132,7 @@ Full wireframes can be accessed here:
 
 ## Alt Tags
 
-In order to ensure that all images are accessible for those using a screen reader, I have ensured that the large number of images used throughout the site include alt tags.
+In order to ensure that all images are accessible for those using a screen reader, I have ensured that all images used throughout the site include alt tags.
 
 ## Forms
 
@@ -149,11 +150,11 @@ The forms on the site used in the modals of "Contact Us" and "Enquire Now" have 
 1. [Bootstrap 4.5.2:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website, such as the navbar, carousels and cards features.
 1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Raleway' font into the style.css file which is used on all pages throughout the project.
+    - Google fonts were used to import the 'Raleway' font which is used on all pages throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes. 
 1. [Git](https://git-scm.com/)
-    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+    - Git was used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
 1. [Balsamiq:](https://balsamiq.com/)
@@ -186,7 +187,7 @@ From Chrome Developer Tools, this Lighthouse score is based on the homepage whil
         <p><img src="documentation/screenshots/nav-tours.jpg"></p>
         <p><img src="documentation/screenshots/other-tours.jpg"></p>
     3. As a First Time Visitor, I want to be able to learn more about the company's goals and values, and easily find the details that I am looking for.
-        - *There is a small section on the company's goals on the homepage, and the About section, which is accessible via the navbar, clearly highlights the goals and values in more detail.* 
+        - *There is a small section on the company's goals on the homepage, and the About section, which is accessible via the navbar, clearly highlights the goals and values in more detail. There is also a link from the homepage under the brief summary section to the About section for ease of access.* 
     4. As a First Time Visitor, I want to enjoy high-quality, interesting images of the locations that I am interested in.
         - *In addition to the hero image, each page has a series of background images and carousel images that show off the destinations.*
     5. As a First Time Visitor, I want to be able to submit an enquiry related to the tour that I am interested in.
@@ -246,7 +247,7 @@ Initially, I used "git commit" and "git push" for every major change, then at la
 
 # Credits
 
-- All images have been sourced from a combination of [Pexels](https://www.pexels.com/) and [Pixabay](https://pixabay.com/)
+- All images have been sourced from a combination of [Pexels](https://www.pexels.com/) and [Pixabay](https://pixabay.com/), except the background photo of the Gothenburg page hero section, which is my own photo.
 - The Navbar, Forms, Carousels, Cards and Weather charts on the Tour Pages have been chosen from Bootstrap templates and adapted using CSS.
 - The Timeline on the About Page and  has been taken from the Whiskey Drop CI project and amended using CSS for this project.
 - [Stack Overflow](https://stackoverflow.com/) was used for occasional debugging or issues where I could not initially work out the solution myself.
