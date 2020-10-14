@@ -176,22 +176,22 @@ body {
 	padding: 25px 25px 0 25px;
 }
 
-.value-text h5 a{
-    border: 2px #030a4a solid;
-    border-radius: 5%;
-    background-color: #F5F5DC;
-    padding: 10px;
-    margin: 0 225px;       
-    color: #030a4a;
-    font-weight: bold;
+.value-text h5 a {
+	border: 2px #030a4a solid;
+	border-radius: 5%;
+	background-color: #030a4a;
+	padding: 10px;
+	margin: 0 225px;
+	color: #F5F5DC;
+	font-weight: bold;
 }
 
-.value-text h5{
-    margin: 40px 0;
+.value-text h5 {
+	margin: 40px 0;
 }
 
 @media screen and (max-width:450px) {
-	.value-text h5 a{
+	.value-text h5 a {
 		margin: 0 50px
 	}
 }
@@ -325,7 +325,7 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
-    color: #F5F5DC
+	color: #F5F5DC
 }
 
 @media screen and (min-width:1125px) {
@@ -443,7 +443,8 @@ body {
 /*Photo Gallery container*/
 
 .photo-gallery-section {
-	height: 95vh
+	height: 95vh;
+	color: #030a4a
 }
 
 .photo-gallery-section h1 {
